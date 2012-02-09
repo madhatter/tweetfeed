@@ -1,0 +1,12 @@
+# tweetfeed
+
+tweetfeed searches the twitter stream for defined hashtags and generates a rss feed (XML file) for your 
+reading pleasures in your feedreader.
+
+## Installation
+
+Not necessary at the moment.
+
+## Configuration
+
+TBD.
