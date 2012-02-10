@@ -2,6 +2,7 @@ require 'daemons'
 require 'eventmachine'
 require 'logger'
 
+# Class for handling the tweetfeed daemon (tweetfeedd)
 class Tweetfeedd
   def run
     Daemons.run_proc('tweetfeedd', :dir_mode => :script, :dir => './', \
