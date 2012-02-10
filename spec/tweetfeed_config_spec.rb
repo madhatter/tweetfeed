@@ -1,4 +1,4 @@
-require_relative '../lib/tweetfeed_config.rb'
+require_relative '../lib/tweetfeedconfig.rb'
 require 'yaml'
 
 describe TweetfeedConfig do

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/tweetfeedd.rb'
-require_relative '../lib/tweetfeed_config.rb'
+require_relative '../lib/tweetfeedconfig.rb'
 
 begin
   config = TweetfeedConfig.new
