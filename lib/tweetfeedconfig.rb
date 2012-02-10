@@ -4,7 +4,7 @@ require 'logger'
 # Class for handling the configuration file
 # of tweetfeed
 
-class Tweetfeed_config
+class TweetfeedConfig
   def initialize
     @CONFIG_FILE = 'tweetfeed.yml'
     @logger = Logger.new(STDOUT)
