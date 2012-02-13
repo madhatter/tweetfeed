@@ -5,7 +5,7 @@ require 'logger'
 # of tweetfeed
 
 class TweetfeedConfig
-  attr_reader :log_level
+  attr_reader :log_level, :hashtags
 
   def initialize
     @CONFIG_FILE = 'tweetfeed.yml'
@@ -21,6 +21,14 @@ class TweetfeedConfig
     @log_level = configuration['loglevel']
     @logger.level = @log_level
     @logger.info "Log level set to #{@log_level}..."
+
+    unless configuration['hashtags'].nil?
+      @hashtags = configuration['hashtags'].split(',').collect { |tag| tag.strip } 
+      @logger.info "Hashtags found: #{@hashtags}"
+    else
+      @logger.error "No Hashtags found. Exiting."
+      exit
+    end
   end
 end
 

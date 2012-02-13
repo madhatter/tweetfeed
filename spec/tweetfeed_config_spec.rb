@@ -11,6 +11,12 @@ describe TweetfeedConfig do
   it "should have some configurations set" do
     config = @tweetfeed_conf
     response = config.log_level
-    response.should == 1
+    response.should == 3
+  end
+
+  it "should have three hashtags found" do
+    config = @tweetfeed_conf
+    response = config.hashtags.size
+    response.should == 3
   end
 end
