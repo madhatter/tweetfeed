@@ -5,6 +5,8 @@ require 'logger'
 # of tweetfeed
 
 class TweetfeedConfig
+  attr_reader :log_level
+
   def initialize
     @CONFIG_FILE = 'tweetfeed.yml'
     @logger = Logger.new(STDOUT)
@@ -19,6 +21,6 @@ class TweetfeedConfig
     @log_level = configuration['loglevel']
     @logger.level = @log_level
     @logger.info "Log level set to #{@log_level}..."
-end
+  end
 end
 
