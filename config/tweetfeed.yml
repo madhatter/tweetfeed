@@ -1,2 +1,8 @@
-loglevel: 0
+## tweetfeed configuration file
+##
+# User's configuration
 hashtags: hadoop, cloudera, hbase
+
+## Don't change any settings below this line -> _______ #
+loglevel: 0
+last_id: 0

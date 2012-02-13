@@ -6,6 +6,7 @@ require 'logger'
 
 class TweetfeedConfig
   attr_reader :log_level, :hashtags
+  attr_accessor :last_id
 
   def initialize
     @CONFIG_FILE = 'tweetfeed.yml'
@@ -29,6 +30,9 @@ class TweetfeedConfig
       @logger.error "No Hashtags found. Exiting."
       exit
     end
+
+    @last_id ||= configuration['last_id']
+    @logger.info "We start collecting at tweet id ##{@last_id}."
   end
 end
 
