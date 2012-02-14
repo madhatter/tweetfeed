@@ -8,6 +8,7 @@ begin
   @config = TweetfeedConfig.new
   
   @tweetfeed = Tweetfeed.new(@config)
+  @tweetfeed.search
 
   #daemon = Tweetfeedd.new
   #daemon.run 
