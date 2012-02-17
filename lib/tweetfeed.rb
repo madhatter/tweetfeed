@@ -7,6 +7,9 @@ require 'rss/maker'
 require_relative '../lib/tweetfeed_config.rb'
 
 class Tweetfeed
+  LOCATION_START = 'Location: '
+  LOCATION_STOP  = "\r\n"
+
   def initialize(config)
     @log_level = config.log_level
     @hashtags = config.hashtags
@@ -69,8 +72,10 @@ class Tweetfeed
       tweets.each do |tweet|
         url = tweet['attrs']['entities']['urls'][0]['url']
         title = tweet['text'].sub(/(#{url})/, "") 
+        furl = get_original_url(url)
         @logger.info "URL: #{url}"
         @logger.info "New Title: #{title}"
+        @logger.info "Long URL: #{furl}"
 
         i = m.items.new_item
         i.title = title
@@ -81,6 +86,37 @@ class Tweetfeed
 
     File.open(@rss_outfile, "w") do |file|
       file.write(content)
+    end
+  end
+
+  def get_original_url(short_url)
+    try = 0
+    resp = 'empty'
+    begin
+      @logger.debug short_url.class
+      resp = Curl::Easy.http_get(short_url) { |res| res.follow_location = true }
+      @logger.debug resp.response_code
+    rescue => err
+      @logger.error "Curl::Easy.http_get failed: #{err}"
+      try += 1
+      sleep 3
+      if try < 5
+        retry
+      else 
+        return nil
+      end
+    end
+    @logger.debug resp.response_code
+    @logger.debug "#{resp.header_str}"
+    if(resp && resp.header_str.index(LOCATION_START) \
+       && resp.header_str.index(LOCATION_STOP))
+      start = resp.header_str.index(LOCATION_START) + LOCATION_START.size
+      stop = resp.header_str.index(LOCATION_STOP, start)
+      @logger.debug "Get redirect link"
+      resp.header_str[start..stop]
+    else
+      @logger.debug "Not getting redirect link for #{short_link}"
+      nil
     end
   end
 end
