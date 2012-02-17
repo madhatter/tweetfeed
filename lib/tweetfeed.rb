@@ -68,9 +68,10 @@ class Tweetfeed
 
       tweets.each do |tweet|
         url = tweet['attrs']['entities']['urls'][0]['url']
-        title = tweet['text'].sub(/("#{url}")/, "") 
+        title = tweet['text'].sub(/(#{url})/, "") 
         @logger.info "URL: #{url}"
         @logger.info "New Title: #{title}"
+
         i = m.items.new_item
         i.title = title
         i.link = tweet['attrs']['entities']['urls'][0]['url'] 
