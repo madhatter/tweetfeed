@@ -16,12 +16,42 @@ class Tweetfeed
     @twitter = Twitter::Client.new
   end
 
+  # Search for hashtags at Twitter
   def search 
-    @hashtags.each do | tag |
-      @twitter.search("##{tag} -rt", :since_id => 168708216706973696, :include_entities => 1, :with_twitter_user_id => 1 ).each do |result|
-        puts result.text
+    tweets = Hash.new
+    begin
+      @hashtags.each do |tag|
+        tweets["#{tag}"] = @twitter.search("##{tag} -rt", :since_id => @last_id, :include_entities => 1, :with_twitter_user_id => 1 )
+        #tweets["#{tag}"] = @twitter.search("##{tag} -rt", :since_id => @last_id, :include_entities => 0, :with_twitter_user_id => 1 )
       end
+      #tweets['hadoop'].each {|t| puts t['id']}
+      tweets
+    rescue EOFError, SocketError
+      @logger.error "Connection to Twitter not available."
     end
   end
+
+  # Make all results available in one array
+  def combine(tweets)
+    arr = Array.new
+    @hashtags.each do |tag| 
+      tweets["#{tag}"].each do |tweet|
+        arr << tweet
+      end 
+    end
+    arr
+  end
+
+  def filter_tweets(tweets)
+    arr = Array.new
+    @hashtags.each do |tag|
+      tweets["#{tag}"].each do |tweet|
+        #p tweet['attrs']['entities']['urls'][0]['url'] unless tweet['attrs']['entities']['urls'].empty?
+        arr << tweet unless tweet['attrs']['entities']['urls'].empty?
+      end
+    end
+    arr
+  end
+
 end
 
