@@ -2,6 +2,7 @@ require 'twitter'
 require 'curb'
 require 'json'
 require 'logger'
+require 'rss/maker'
 
 require_relative '../lib/tweetfeed_config.rb'
 
@@ -53,5 +54,33 @@ class Tweetfeed
     arr
   end
 
+  def generate_rss_feed(tweets)
+    version = "2.0"
+    destination = "tweetfeeder.xml"
+
+    @logger.info "Generating RSS feed to #{destination}."
+
+    content = RSS::Maker.make(version) do |m|
+      m.channel.title = "tweetfeed RSS feed #{@hashtags}"
+      m.channel.link = "http://github.com/madhatter/tweetfeed"
+      m.channel.description = "Automatically generated news from Twitter hashtags"
+      m.items.do_sort = true # sort items by date
+
+      tweets.each do |tweet|
+        url = tweet['attrs']['entities']['urls'][0]['url']
+        title = tweet['text'].sub(/("#{url}")/, "") 
+        @logger.info "URL: #{url}"
+        @logger.info "New Title: #{title}"
+        i = m.items.new_item
+        i.title = title
+        i.link = tweet['attrs']['entities']['urls'][0]['url'] 
+        i.date = tweet['created_at']
+      end
+    end
+
+    File.open(destination, "w") do |file|
+      file.write(content)
+    end
+  end
 end
 
