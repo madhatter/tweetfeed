@@ -11,6 +11,7 @@ class Tweetfeed
     @log_level = config.log_level
     @hashtags = config.hashtags
     @last_id = config.last_id
+    @rss_outfile = config.rss_outfile
 
     @logger = Logger.new(STDOUT)
     @logger.level = @log_level
@@ -56,9 +57,8 @@ class Tweetfeed
 
   def generate_rss_feed(tweets)
     version = "2.0"
-    destination = "tweetfeeder.xml"
 
-    @logger.info "Generating RSS feed to #{destination}."
+    @logger.info "Generating RSS feed to #{@rss_outfile}."
 
     content = RSS::Maker.make(version) do |m|
       m.channel.title = "tweetfeed RSS feed #{@hashtags}"
@@ -79,7 +79,7 @@ class Tweetfeed
       end
     end
 
-    File.open(destination, "w") do |file|
+    File.open(@rss_outfile, "w") do |file|
       file.write(content)
     end
   end

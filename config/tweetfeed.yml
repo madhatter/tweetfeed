@@ -2,6 +2,7 @@
 ##
 # User's configuration
 hashtags: hadoop, cloudera, hbase
+outfile: tweetfeed.xml
 
 ## Don't change any settings below this line -> _______ #
 loglevel: 0

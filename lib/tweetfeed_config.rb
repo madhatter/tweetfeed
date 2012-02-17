@@ -5,7 +5,7 @@ require 'logger'
 # of tweetfeed
 
 class TweetfeedConfig
-  attr_reader :log_level, :hashtags
+  attr_reader :log_level, :hashtags, :rss_outfile
   attr_accessor :last_id
 
   def initialize
@@ -33,6 +33,9 @@ class TweetfeedConfig
 
     @last_id ||= configuration['last_id']
     @logger.info "We start collecting at tweet id ##{@last_id}."
+
+    @rss_outfile = configuration['outfile']
+    @logger.info "RSS feed output file: #{@rss_outfile}"
   end
 end
 
