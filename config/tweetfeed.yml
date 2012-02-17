@@ -2,8 +2,8 @@
 ##
 # User's configuration
 hashtags: hadoop, cloudera, hbase
-outfile: tweetfeed.xml
+outfile: /Users/madhatter/tweetfeed.xml
 
 ## Don't change any settings below this line -> _______ #
-loglevel: 0
+loglevel: 1
 last_id: 168708216706973696

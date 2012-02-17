@@ -11,7 +11,8 @@ class TweetfeedConfig
   def initialize
     @CONFIG_FILE = 'tweetfeed.yml'
     @logger = Logger.new(STDOUT)
-    config_file = File.join(Dir.pwd, 'config', @CONFIG_FILE)
+    pwd  = File.dirname(File.expand_path(__FILE__))
+    config_file = File.join(pwd, '../config', @CONFIG_FILE)
     read config_file
   end
 

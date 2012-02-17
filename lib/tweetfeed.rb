@@ -21,6 +21,12 @@ class Tweetfeed
     @twitter = Twitter::Client.new
   end
 
+  def run
+    tweets = search
+    url_tweets = filter_tweets(tweets)
+    generate_rss_feed(url_tweets)
+  end
+
   # Search for hashtags at Twitter
   def search 
     tweets = Hash.new
@@ -60,6 +66,7 @@ class Tweetfeed
 
   def generate_rss_feed(tweets)
     version = "2.0"
+    long_url = nil
 
     @logger.info "Generating RSS feed to #{@rss_outfile}."
 
@@ -70,16 +77,24 @@ class Tweetfeed
       m.items.do_sort = true # sort items by date
 
       tweets.each do |tweet|
-        url = tweet['attrs']['entities']['urls'][0]['url']
-        title = tweet['text'].sub(/(#{url})/, "") 
-        furl = get_original_url(url)
-        @logger.info "URL: #{url}"
-        @logger.info "New Title: #{title}"
-        @logger.info "Long URL: #{furl}"
+        orig_url = tweet['attrs']['entities']['urls'][0]['url']
+        short_url = orig_url
+        title = tweet['text'].sub(/(#{orig_url})/, "") 
+        long_url = get_original_url(short_url)
+        while short_url != long_url do
+          short_url = long_url
+          long_url = get_original_url(short_url)
+          break if long_url == short_url
+        end
+        @logger.debug "URL: #{orig_url}"
+        @logger.debug "New Title: #{title}"
+        @logger.debug "Long URL: #{long_url}"
 
+        # TODO: Maybe some kind of domain filter would be nice here...
         i = m.items.new_item
-        i.title = title
-        i.link = tweet['attrs']['entities']['urls'][0]['url'] 
+        i.title = title.gsub(/\n/,"")
+        #i.link = tweet['attrs']['entities']['urls'][0]['url'] 
+        i.link = long_url.gsub(/\r/,"")
         i.date = tweet['created_at']
       end
     end
@@ -106,6 +121,7 @@ class Tweetfeed
         return nil
       end
     end
+
     @logger.debug resp.response_code
     @logger.debug "#{resp.header_str}"
     if(resp && resp.header_str.index(LOCATION_START) \
@@ -115,8 +131,9 @@ class Tweetfeed
       @logger.debug "Get redirect link"
       resp.header_str[start..stop]
     else
-      @logger.debug "Not getting redirect link for #{short_link}"
-      nil
+      @logger.debug "Not getting redirect link for #{short_url}"
+      # return the old one instead, better than nothing
+      short_url
     end
   end
 end
