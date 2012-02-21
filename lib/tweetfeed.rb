@@ -25,7 +25,7 @@ class Tweetfeed
   def run
     tweets = search
     url_tweets = filter_tweets(tweets)
-    #generate_rss_feed(url_tweets)
+    generate_rss_feed(url_tweets)
   end
 
   # Search for hashtags at Twitter
@@ -37,15 +37,17 @@ class Tweetfeed
         tweets["#{tag}"] = @twitter.search("##{tag} -rt", :since_id => @last_id, :include_entities => 1, :with_twitter_user_id => 1 )
       end
 
+      # Get the max tweet id from the last search
+      # TODO: There has to be a better way....
       @hashtags.each do |tag|
         tweets["#{tag}"].each do |t| 
-          puts t['id'].to_s + " #{tag}"
+          #puts t['id'].to_s + " #{tag}"
           last_id = t['id'] if t['id'] > last_id 
         end
       end
 
-      # TODO: Store the max id from this run
-      puts last_id
+      # Store the max id from this run
+      @config.last_id = last_id
       @config.write
       tweets
     rescue EOFError, SocketError
