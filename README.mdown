@@ -5,8 +5,39 @@ reading pleasures in your feedreader.
 
 ## Installation
 
-Not necessary at the moment.
+Installation is easy. Just clone the repository:
+	git clone git@github.com:madhatter/tweetfeed.git
 
 ## Configuration
 
-TBD.
+There is only one configuration file _config/tweetfeed.yml_ which looks
+like this:
+	hashtags: hadoop, cloudera, hbase
+	outfile: /home/madhatter/htdocs/tweetfeed.xml
+	loglevel: 1
+	last_id: 168708216706973696
+Normally it will be enough to configure only the first to parameters to
+your needs.
+
+* Set ```hashtags``` to a list of hashtags you like to
+search for on the Twitter public timeline.
+* Set ```outfile``` to the path where you want the RSS feed file to be
+stored (including the filename).
+
+## Start tweetfeed
+You can choose between running tweetfeed as a Ruby script by executing
+```./bin/tweetfeed.rb``` or starting it as a daemon by ```./bin/tweetfeed_daemon.rb start```
+Logging information will be send to standard-out or to a logfile called ```tweetfeedd.output```.
+
+## Changelog
+* Version 0.1: Initial release.
+
+## TODO
+* Remove dublicate URLs from feed
+* Set limits to reduce processing time at first run
+* Set the interval how often the search should be executed
+* Exclusion list (exclude hashtags or maybe even domains in the links)
+
+If you miss some features not on the list above, just let me know by a short [email][].
+
+[email]: mailto://madhatter@nostalgix.org
