@@ -1,16 +1,12 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/tweetfeedd.rb'
+require_relative '../lib/tweetfeed.rb'
+require_relative '../lib/tweetfeed_config.rb'
 
 begin
-  #@config = TweetfeedConfig.new
+  @config = TweetfeedConfig.new
   
-  #@tweetfeed = Tweetfeed.new(@config)
-  #@tweetfeed.run
-
-  
-  daemon = Tweetfeedd.new
-  daemon.run 
-
+  @tweetfeed = Tweetfeed.new(@config)
+  @tweetfeed.run
 end
 

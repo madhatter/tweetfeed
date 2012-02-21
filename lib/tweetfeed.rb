@@ -11,6 +11,7 @@ class Tweetfeed
   LOCATION_STOP  = "\r\n"
 
   def initialize(config)
+    @config = config
     @log_level = config.log_level
     @hashtags = config.hashtags
     @last_id = config.last_id
@@ -24,18 +25,28 @@ class Tweetfeed
   def run
     tweets = search
     url_tweets = filter_tweets(tweets)
-    generate_rss_feed(url_tweets)
+    #generate_rss_feed(url_tweets)
   end
 
   # Search for hashtags at Twitter
   def search 
     tweets = Hash.new
     begin
+      last_id = @last_id
       @hashtags.each do |tag|
         tweets["#{tag}"] = @twitter.search("##{tag} -rt", :since_id => @last_id, :include_entities => 1, :with_twitter_user_id => 1 )
-        #tweets["#{tag}"] = @twitter.search("##{tag} -rt", :since_id => @last_id, :include_entities => 0, :with_twitter_user_id => 1 )
       end
-      #tweets['hadoop'].each {|t| puts t['id']}
+
+      @hashtags.each do |tag|
+        tweets["#{tag}"].each do |t| 
+          puts t['id'].to_s + " #{tag}"
+          last_id = t['id'] if t['id'] > last_id 
+        end
+      end
+
+      # TODO: Store the max id from this run
+      puts last_id
+      @config.write
       tweets
     rescue EOFError, SocketError
       @logger.error "Connection to Twitter not available."
