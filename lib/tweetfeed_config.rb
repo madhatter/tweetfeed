@@ -6,7 +6,7 @@ require 'logger'
 
 class TweetfeedConfig
   attr_reader :log_level, :hashtags, :rss_outfile
-  attr_accessor :last_id, :blafasel
+  attr_accessor :last_id
 
   def initialize
     @CONFIG_FILE = 'tweetfeed.yml'
@@ -42,7 +42,6 @@ class TweetfeedConfig
   def write
     # update the last_id and write to the config file
     @configuration['last_id'] = @last_id
-    puts @configuration.to_yaml 
     File.open(@config_file, "w") do |file|
         file.write @configuration.to_yaml
     end
