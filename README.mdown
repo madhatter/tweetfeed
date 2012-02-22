@@ -3,6 +3,8 @@
 tweetfeed searches the twitter stream for defined hashtags and generates a rss feed (XML file) for your 
 reading pleasures in your feedreader.
 
+[![endorse](http://api.coderwall.com/madhatter/endorsecount.png)](http://coderwall.com/madhatter)
+
 ## Installation
 
 Installation is easy. Just clone the repository:
