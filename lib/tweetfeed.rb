@@ -24,8 +24,8 @@ class Tweetfeed
 
   def run
     tweets = search
-    url_tweets = filter_tweets(tweets)
-    generate_rss_feed(url_tweets)
+    url_tweets = filter_tweets(tweets) if tweets
+    generate_rss_feed(url_tweets) if url_tweets
   end
 
   # Search for hashtags at Twitter

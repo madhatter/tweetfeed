@@ -16,7 +16,8 @@ class TweetfeedConfig
     read 
   end
 
-  def read 
+  def read config_file = nil
+    @config_file = config_file unless config_file == nil
     @configuration = YAML.load_file(@config_file)
     @logger.info "Config file read..."
     

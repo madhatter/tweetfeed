@@ -19,4 +19,14 @@ describe TweetfeedConfig do
     response = config.hashtags.size
     response.should == 3
   end
+
+  it "should save an updated last_id" do
+    config = @tweetfeed_conf
+    config.last_id = 12
+    config.write
+
+    config.read
+    response = config.last_id
+    response.should == 12
+  end
 end
