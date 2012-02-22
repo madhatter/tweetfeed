@@ -1,6 +1,5 @@
 require 'twitter'
 require 'curb'
-require 'json'
 require 'logger'
 require 'rss/maker'
 
