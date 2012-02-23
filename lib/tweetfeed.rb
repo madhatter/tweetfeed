@@ -106,7 +106,7 @@ class Tweetfeed
         i = m.items.new_item
         i.title = title.gsub(/\n/,"")
         #i.link = tweet['attrs']['entities']['urls'][0]['url'] 
-        i.link = long_url.gsub(/\r/,"")
+        i.link = long_url.gsub(/\r/,"") unless long_url == nil
         i.date = tweet['created_at']
       end
     end
