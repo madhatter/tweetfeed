@@ -2,12 +2,15 @@ require 'twitter'
 require 'curb'
 require 'logger'
 require 'rss/maker'
+require 'rss/2.0'
 
 require_relative '../lib/tweetfeed_config.rb'
 
 class Tweetfeed
   LOCATION_START = 'Location: '
   LOCATION_STOP  = "\r\n"
+  PWD = File.dirname(File.expand_path(__FILE__))
+  BACKUP_FILE = File.join(PWD, '../', '.tweetfeed.xml')
 
   def initialize(config)
     @config = config
@@ -24,6 +27,7 @@ class Tweetfeed
   def run
     tweets = search
     url_tweets = filter_tweets(tweets) if tweets
+    old_items = parse_rss_file
     generate_rss_feed(url_tweets) if url_tweets
   end
 
@@ -74,6 +78,19 @@ class Tweetfeed
       end
     end
     arr
+  end
+
+  # Parse the default backup rss file to be able to combine the old items with the new ones
+  def parse_rss_file
+    xml_file = BACKUP_FILE
+    @logger.info "filr: " + xml_file.to_s
+    content = ""
+    begin
+      open(xml_file) { |f| content = f.read }
+    rescue Exception
+      @logger.error "Backup file is not where I thought it should be."
+    end
+    rss = RSS::Parser.parse(content, false) unless content.empty?
   end
 
   def generate_rss_feed(tweets)
