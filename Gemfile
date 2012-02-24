@@ -5,6 +5,7 @@ gem 'daemons'
 gem 'curb'
 gem 'logger'
 gem 'twitter'
+gem 'rake'
 
 group :test, :development do
   gem 'rspec'
