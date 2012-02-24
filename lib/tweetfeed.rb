@@ -28,7 +28,10 @@ class Tweetfeed
     tweets = search
     url_tweets = filter_tweets(tweets) if tweets
     old_items = parse_rss_file
-    generate_rss_feed(url_tweets) if url_tweets
+    generate_rss_feed(url_tweets, old_items) if url_tweets
+    # the last thing we do:
+    @config.write
+    @logger.info "....and we are done.\n\n"
   end
 
   # Search for hashtags at Twitter
@@ -51,7 +54,6 @@ class Tweetfeed
 
       # Store the max id from this run
       @config.last_id = last_id
-      @config.write
       tweets
     rescue EOFError, SocketError
       @logger.error "Connection to Twitter not available."
@@ -83,7 +85,7 @@ class Tweetfeed
   # Parse the default backup rss file to be able to combine the old items with the new ones
   def parse_rss_file
     xml_file = BACKUP_FILE
-    @logger.info "filr: " + xml_file.to_s
+    @logger.info "Parsing old feed items from " + xml_file
     content = ""
     begin
       open(xml_file) { |f| content = f.read }
@@ -93,7 +95,8 @@ class Tweetfeed
     rss = RSS::Parser.parse(content, false) unless content.empty?
   end
 
-  def generate_rss_feed(tweets)
+  # Generate the final xml file
+  def generate_rss_feed(tweets, old_items)
     version = "2.0"
     long_url = nil
 
@@ -123,12 +126,33 @@ class Tweetfeed
         i = m.items.new_item
         i.title = title.gsub(/\n/,"")
         #i.link = tweet['attrs']['entities']['urls'][0]['url'] 
-        i.link = long_url.gsub(/\r/,"") unless long_url == nil
+        unless long_url == nil
+          i.link = long_url.gsub(/\r/,"") 
+        else
+          i.link = orig_url.gsub(/\r/,"") unless orig_url == nil
+        end
         i.date = tweet['created_at']
       end
+
+      @logger.debug "Adding the old stuff...:"
+      old_items.items.each do |item|
+        i = m.items.new_item
+        i.title = item.title
+        @logger.debug "Adding item '#{item.title}'"
+        i.link = item.link
+        i.date = item.date
+      end
+    end
+    save_rss_feed(content)
+  end
+
+  # Saving the final xml file and creating the backup file
+  def save_rss_feed(content)
+    File.open(@rss_outfile, "w") do |file|
+      file.write(content)
     end
 
-    File.open(@rss_outfile, "w") do |file|
+    File.open(BACKUP_FILE, "w") do |file|
       file.write(content)
     end
   end
