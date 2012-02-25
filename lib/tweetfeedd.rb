@@ -22,7 +22,7 @@ class Tweetfeedd
           begin
             @tweetfeed.run
           rescue InternalServerError
-            $stderr.puts "Something went terribly wrong."
+            $logger.error "Something went terribly wrong."
           end
         }
       }

@@ -141,7 +141,7 @@ class Tweetfeed
         @logger.debug "Adding item '#{item.title}'"
         i.link = item.link
         i.date = item.date
-      end
+      end unless old_items.nil?
     end
     save_rss_feed(content)
   end
