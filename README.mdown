@@ -42,6 +42,7 @@ Logging information will be send to standard-out or to a logfile called ```tweet
 
 ## Changelog
 * Version 0.1: Initial release.
+* Version 0.2: Combine fresh items with old items from the last run(s).
 
 ## TODO
 * Remove dublicate URLs from feed
