@@ -28,4 +28,7 @@ class Tweetfeedd
       }
     end
   end
+
+  # TODO Overwrite the stop method, to make sure the daemon gets stopped
+  # after the xml file has been successfully written and not earlier.
 end

@@ -25,6 +25,7 @@ class Tweetfeed
   end
 
   def run
+    @logger.debug "LastId is " +@last_id.to_s
     tweets = search
     url_tweets = filter_tweets(tweets) if tweets
     old_items = parse_rss_file
@@ -54,6 +55,7 @@ class Tweetfeed
 
       # Store the max id from this run
       @config.last_id = last_id
+      @last_id = @config.last_id
       tweets
     rescue EOFError, SocketError
       @logger.error "Connection to Twitter not available."
