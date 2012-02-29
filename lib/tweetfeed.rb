@@ -53,13 +53,34 @@ class Tweetfeed
         end
       end
 
-      # Store the max id from this run
-      @config.last_id = last_id
-      @last_id = @config.last_id
+      save_last_id last_id
       tweets
     rescue EOFError, SocketError
       @logger.error "Connection to Twitter not available."
     end
+  end
+
+  def new_search
+    last_id = @last_id
+    tweets = {}
+    begin
+      @hashtags.each do |hashtag|
+        result = @twitter.search("##{hashtag} -rt", :since_id => @last_id, :include_entities => 1)
+      end
+
+      calculate_last_id result
+      filter_tweets_with_urls result
+
+
+    rescue EOFError, SocketError
+      @logger.error "Connection to Twitter seems to be not available."
+    end
+  end
+
+  # Store the tweet id from the latest search in the configuration
+  def save_last_id last_id
+    @config.last_id = last_id
+    @last_id = @config.last_id
   end
 
   # Make all results available in one array
