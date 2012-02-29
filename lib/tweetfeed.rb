@@ -24,85 +24,56 @@ class Tweetfeed
     @twitter = Twitter::Client.new
   end
 
+  # Starts the search and generates the RSS feed file.
   def run
     @logger.debug "LastId is " +@last_id.to_s
     tweets = search
-    url_tweets = filter_tweets(tweets) if tweets
     old_items = parse_rss_file
-    generate_rss_feed(url_tweets, old_items) if url_tweets
+    generate_rss_feed(tweets, old_items) if tweets
+    #
     # the last thing we do:
     @config.write
     @logger.info "....and we are done.\n\n"
   end
 
   # Search for hashtags at Twitter
-  def search 
-    tweets = Hash.new
-    begin
-      last_id = @last_id
-      @hashtags.each do |tag|
-        tweets["#{tag}"] = @twitter.search("##{tag} -rt", :since_id => @last_id, :include_entities => 1, :with_twitter_user_id => 1 )
-      end
-
-      # Get the max tweet id from the last search
-      # TODO: There has to be a better way....
-      @hashtags.each do |tag|
-        tweets["#{tag}"].each do |t| 
-          #puts t['id'].to_s + " #{tag}"
-          last_id = t['id'] if t['id'] > last_id 
-        end
-      end
-
-      save_last_id last_id
-      tweets
-    rescue EOFError, SocketError
-      @logger.error "Connection to Twitter not available."
-    end
-  end
-
-  def new_search
-    last_id = @last_id
-    tweets = {}
+  def search
+    result = []
     begin
       @hashtags.each do |hashtag|
         result = @twitter.search("##{hashtag} -rt", :since_id => @last_id, :include_entities => 1)
       end
 
-      calculate_last_id result
+      store_last_id calculate_last_id result
       filter_tweets_with_urls result
-
 
     rescue EOFError, SocketError
       @logger.error "Connection to Twitter seems to be not available."
     end
   end
 
+  # Get the max tweet id from the last search result
+  def calculate_last_id tweets
+    last_id = @last_id
+    tweets.each do |t| 
+      last_id = t['id'] if t['id'] > last_id 
+    end
+    last_id
+  end
+
   # Store the tweet id from the latest search in the configuration
-  def save_last_id last_id
+  def store_last_id last_id
     @config.last_id = last_id
     @last_id = @config.last_id
   end
 
-  # Make all results available in one array
-  def combine(tweets)
-    arr = Array.new
-    @hashtags.each do |tag| 
-      tweets["#{tag}"].each do |tweet|
-        arr << tweet
-      end 
+  # Filter the tweets for tweets with URLs only.
+  def filter_tweets_with_urls tweets
+    tweets_with_urls = []
+    tweets.each do |tweet|
+      tweets_with_urls << tweet unless tweet['attrs']['entities']['urls'].empty?
     end
-    arr
-  end
-
-  def filter_tweets(tweets)
-    arr = Array.new
-    @hashtags.each do |tag|
-      tweets["#{tag}"].each do |tweet|
-        #p tweet['attrs']['entities']['urls'][0]['url'] unless tweet['attrs']['entities']['urls'].empty?
-        arr << tweet unless tweet['attrs']['entities']['urls'].empty?
-      end
-    end
-    arr
+    tweets_with_urls
   end
 
   # Parse the default backup rss file to be able to combine the old items with the new ones
@@ -119,7 +90,7 @@ class Tweetfeed
   end
 
   # Generate the final xml file
-  def generate_rss_feed(tweets, old_items)
+  def generate_rss_feed tweets, old_items
     version = "2.0"
     long_url = nil
 
@@ -132,18 +103,21 @@ class Tweetfeed
       m.items.do_sort = true # sort items by date
 
       tweets.each do |tweet|
-        orig_url = tweet['attrs']['entities']['urls'][0]['url']
+        orig_url = tweet['attrs']['entities']['urls'][0]['expanded_url']
+        @logger.debug "URL to fetch: #{orig_url}"
         short_url = orig_url
         title = tweet['text'].sub(/(#{orig_url})/, "") 
         long_url = get_original_url(short_url)
+        @logger.debug "Found: #{long_url}"
+        i = 1
         while short_url != long_url do
+          @logger.debug "Curling #" + i.to_s
           short_url = long_url
           long_url = get_original_url(short_url)
+          @logger.debug "Found: #{long_url}"
+          i +=1
           break if long_url == short_url
         end
-        @logger.debug "URL: #{orig_url}"
-        @logger.debug "New Title: #{title}"
-        @logger.debug "Long URL: #{long_url}"
 
         # TODO: Maybe some kind of domain filter would be nice here...
         i = m.items.new_item
@@ -170,7 +144,7 @@ class Tweetfeed
   end
 
   # Saving the final xml file and creating the backup file
-  def save_rss_feed(content)
+  def save_rss_feed content
     File.open(@rss_outfile, "w") do |file|
       file.write(content)
     end
@@ -180,7 +154,8 @@ class Tweetfeed
     end
   end
 
-  def get_original_url(short_url)
+  # Get the long/original URL
+  def get_original_url short_url
     try = 0
     resp = 'empty'
     begin
