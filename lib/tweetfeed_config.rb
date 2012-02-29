@@ -6,7 +6,7 @@ require 'logger'
 
 class TweetfeedConfig
   attr_reader :log_level, :hashtags, :rss_outfile
-  attr_accessor :last_id
+  attr_accessor :last_id, :logger
 
   def initialize
     @CONFIG_FILE = 'tweetfeed.yml'

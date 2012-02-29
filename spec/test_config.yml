@@ -1,4 +1,5 @@
 ---
-loglevel: 3
+loglevel: 0
 hashtags: bla, fasel, blubb
+outfile: tweetfeed.xml
 last_id: 12

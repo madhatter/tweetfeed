@@ -7,6 +7,7 @@ require 'rss/2.0'
 require_relative '../lib/tweetfeed_config.rb'
 
 class Tweetfeed
+  attr_accessor :twitter
   LOCATION_START = 'Location: '
   LOCATION_STOP  = "\r\n"
   PWD = File.dirname(File.expand_path(__FILE__))
@@ -48,7 +49,6 @@ class Tweetfeed
       # TODO: There has to be a better way....
       @hashtags.each do |tag|
         tweets["#{tag}"].each do |t| 
-          #puts t['id'].to_s + " #{tag}"
           last_id = t['id'] if t['id'] > last_id 
         end
       end
