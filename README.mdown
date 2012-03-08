@@ -1,4 +1,4 @@
-# tweetfeed
+# tweetfeed [![Build Status](https://secure.travis-ci.org/madhatter/tweetfeed.png?branch=master)](http://travis-ci.org/madhatter/tweetfeed)
 
 tweetfeed searches the twitter stream for defined hashtags and generates a rss feed (XML file) for your 
 reading pleasures in your feedreader.
