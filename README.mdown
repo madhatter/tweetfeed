@@ -1,4 +1,4 @@
-# tweetfeed
+# tweetfeed [![Build Status](https://secure.travis-ci.org/madhatter/tweetfeed.png?branch=master)](http://travis-ci.org/madhatter/tweetfeed)
 
 tweetfeed searches the twitter stream for defined hashtags and generates a rss feed (XML file) for your 
 reading pleasures in your feedreader.
@@ -9,7 +9,7 @@ reading pleasures in your feedreader.
 
 Installation is easy. Just clone the repository:
 
-```git clone git@github.com:madhatter/tweetfeed.git```
+```git clone git://github.com/madhatter/tweetfeed.git```
 
 Change to the tweetfeed directory and execute
 

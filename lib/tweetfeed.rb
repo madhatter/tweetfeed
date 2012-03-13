@@ -22,7 +22,7 @@ class Tweetfeed
     @logger.debug "LastId is " +@last_id.to_s
     tweets = search
     
-    @generator.generate_rss_file tweets if tweets
+    @generator.generate_rss_file tweets unless tweets.instance_of? NilClass
     #
     # the last thing we do:
     @config.write
