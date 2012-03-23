@@ -6,11 +6,11 @@ require 'logger'
 
 class TweetfeedConfig
   attr_reader :log_level, :hashtags, :rss_outfile
-  attr_accessor :last_id
+  attr_accessor :last_id, :logger
 
-  def initialize
+  def initialize log = Logger.new(STDOUT)
     @CONFIG_FILE = 'tweetfeed.yml'
-    @logger = Logger.new(STDOUT)
+    @logger = log
     pwd  = File.dirname(File.expand_path(__FILE__))
     @config_file = File.join(pwd, '../config', @CONFIG_FILE)
     read 

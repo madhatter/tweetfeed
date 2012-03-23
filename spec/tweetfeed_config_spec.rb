@@ -3,7 +3,8 @@ require 'yaml'
 
 describe TweetfeedConfig do
   before :each do
-    @tweetfeed_conf = TweetfeedConfig.new
+    logger = double(:logger, :info => nil, :level= => nil)
+    @tweetfeed_conf = TweetfeedConfig.new logger
     config_file = File.join(Dir.pwd, 'spec', 'test_config.yml')
     @tweetfeed_conf.read config_file
   end
