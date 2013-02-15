@@ -14,7 +14,13 @@ class Tweetfeed
     @logger = Logger.new(STDOUT)
     @logger.level = @log_level
     @generator = TweetfeedGenerator.new @config
-    @twitter = Twitter::Client.new
+    #@twitter = Twitter::Client.new
+    @twitter =  Twitter.configure do |config|
+		  config.consumer_key = "JOaCrxrtn8eKgCVOlpWRQ"
+		  config.consumer_secret = "brBx60OPfT6DlveRdxuwUFhdTBP9P9xIDbgol3UP8pU"
+		  config.oauth_token = "218466084-18G5H2rAWZaMqJH618Dtu7sPGrfHYfAWZIHyyVGd"
+		  config.oauth_token_secret = "t6s6H081tGhQew0tBfWZXd6nYsr43NkxMZ8Tgdhd8"
+		end
   end
 
   # Starts the search and generates the RSS feed file.
@@ -23,7 +29,7 @@ class Tweetfeed
     tweets = search
     
     @generator.generate_rss_file tweets unless tweets.instance_of? NilClass
-    #
+    
     # the last thing we do:
     @config.write
     @logger.info "....and we are done.\n\n"
@@ -34,13 +40,18 @@ class Tweetfeed
     result = []
     begin
       @hashtags.each do |hashtag|
-        result = @twitter.search("##{hashtag} -rt", :since_id => @last_id, :include_entities => 1)
+        result = @twitter.search("##{hashtag} -rt", :since_id => @last_id, :include_entities => 1).statuses
       end
 
+      # for debugging TODO remove later
+#      result.statuses.each do |status|
+#        puts status.text
+#      end
+#      exit
       store_last_id calculate_last_id result
       filter_tweets_with_urls result
 
-    rescue EOFError, SocketError, Error
+    rescue EOFError, SocketError
       @logger.error "Connection to Twitter seems to be not available."
     end
   end
@@ -64,7 +75,11 @@ class Tweetfeed
   def filter_tweets_with_urls tweets
     tweets_with_urls = []
     tweets.each do |tweet|
-      tweets_with_urls << tweet unless tweet['attrs']['entities']['urls'].empty?
+      # TODO remove this, just for debugging
+#      tweet.urls.each do |url| 
+#        p url.display_url
+#      end
+      tweets_with_urls << tweet unless tweet.urls.empty?
     end
     tweets_with_urls
   end

@@ -50,8 +50,8 @@ class TweetfeedGenerator
       m.items.do_sort = true # sort items by date
 
       tweets.each do |tweet|
-        orig_url = tweet['attrs']['entities']['urls'][0]['url']
-        expanded_url = tweet['attrs']['entities']['urls'][0]['expanded_url']
+        orig_url = tweet.urls[0].url
+        expanded_url = tweet.urls[0].expanded_url
         @logger.debug "URL to fetch: #{orig_url}"
         short_url = expanded_url
         title = tweet['text'].sub(/(#{orig_url})/, "") 
