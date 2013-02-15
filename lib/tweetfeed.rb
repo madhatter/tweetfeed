@@ -19,7 +19,7 @@ class Tweetfeed
 
   # Starts the search and generates the RSS feed file.
   def run
-    @logger.debug "LastId is " +@last_id.to_s
+    @logger.debug "LastId is " + @last_id.to_s
     tweets = search
     
     @generator.generate_rss_file tweets unless tweets.instance_of? NilClass

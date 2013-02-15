@@ -3,3 +3,4 @@
 *.pid
 *.tweetfeed.xml
 Gemfile.lock
+tags
