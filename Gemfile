@@ -10,4 +10,5 @@ gem "rake", "~>10.0.3"
 group :test, :development do
   gem "rspec", "~>2.12"
   gem "autotest", "~>4.4"
+  gem "coveralls", require: false
 end
