@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+content-length: 2090
+content-type: application/json;charset=utf-8
+date: Mon, 17 Jun 2013 19:59:02 GMT
+expires: Tue, 31 Mar 1981 05:00:00 GMT
+last-modified: Mon, 17 Jun 2013 19:59:02 GMT
+pragma: no-cache
+server: tfe
+set-cookie: lang=en
+set-cookie: guest_id=v1%3A137149914214264650; Domain=.twitter.com; Path=/; Expires=Wed, 17-Jun-2015 19:59:02 UTC
+status: 200 OK
+strict-transport-security: max-age=631138519
+x-access-level: read-write-directmessages
+x-frame-options: SAMEORIGIN
+x-rate-limit-limit: 180
+x-rate-limit-remaining: 177
+x-rate-limit-reset: 1371499508
+x-transaction: 8f79f1385c809d33
+x-xss-protection: 1; mode=block
+
+{"id":12879982,"id_str":"12879982","name":"madhatter","screen_name":"nostalgix","location":"L\u00fcbeck und Hamburg","description":"I'm the same motherfucker that I ever was.","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":151,"friends_count":176,"listed_count":2,"created_at":"Wed Jan 30 18:16:27 +0000 2008","favourites_count":213,"utc_offset":3600,"time_zone":"Berlin","geo_enabled":true,"verified":false,"statuses_count":4645,"lang":"en","status":{"created_at":"Mon Jun 17 16:45:28 +0000 2013","id":346669938477506560,"id_str":"346669938477506560","text":"Auf dem Kindle st\u00e4ndig neue B\u00fccher kaufen zu k\u00f6nnen, ist ja auch die Pest.","source":"\u003ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"de"},"contributors_enabled":false,"is_translator":false,"profile_background_color":"1A1B1F","profile_background_image_url":"http:\/\/a0.twimg.com\/profile_background_images\/6864736\/wallpaper_leaves.jpg","profile_background_image_url_https":"https:\/\/si0.twimg.com\/profile_background_images\/6864736\/wallpaper_leaves.jpg","profile_background_tile":true,"profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1240529566\/tumblr_lfvzqn4Jf31qeu4rao1_500_normal.jpeg","profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1240529566\/tumblr_lfvzqn4Jf31qeu4rao1_500_normal.jpeg","profile_link_color":"2FC2EF","profile_sidebar_border_color":"181A1E","profile_sidebar_fill_color":"252429","profile_text_color":"666666","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}
+
