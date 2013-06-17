@@ -1,7 +1,6 @@
 require_relative '../lib/tweetfeed_config.rb'
 require 'yaml'
-require 'coveralls'
-Coveralls.wear
+require 'spec_helper.rb'
 
 describe TweetfeedConfig do
   before :each do
