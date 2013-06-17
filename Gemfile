@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
   
 gem "eventmachine", "~>1.0.0"
 gem "daemons", "~>1.1.9"
@@ -9,6 +9,7 @@ gem "rake", "~>10.0.3"
 
 group :test, :development do
   gem "rspec", "~>2.12"
+  gem "webmock"
   gem "autotest", "~>4.4"
   gem "coveralls", require: false
 end
