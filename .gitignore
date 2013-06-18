@@ -4,5 +4,3 @@
 *.tweetfeed.xml
 Gemfile.lock
 tags
-coverage
-*/coverage
