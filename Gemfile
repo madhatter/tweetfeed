@@ -8,7 +8,7 @@ gem "twitter", "4.5.0"
 gem "rake", "~>10.0.3"
 
 group :test, :development do
-  gem "rspec", "~>2.12"
+  gem "rspec", "~>2.13"
   gem "webmock"
   gem "autotest", "~>4.4"
   gem "coveralls", require: false
