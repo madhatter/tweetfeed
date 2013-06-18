@@ -1,6 +1,6 @@
-require_relative '../lib/tweetfeed_config.rb'
-require 'yaml'
 require 'spec_helper.rb'
+require 'yaml'
+require_relative '../lib/tweetfeed_config.rb'
 
 describe TweetfeedConfig do
   before :each do
