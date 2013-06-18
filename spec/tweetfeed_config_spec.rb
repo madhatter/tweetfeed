@@ -4,7 +4,7 @@ require_relative '../lib/tweetfeed_config.rb'
 
 describe TweetfeedConfig do
   before :each do
-    logger = double(:logger, :info => nil, :level= => nil)
+    logger = double(:logger, :info => nil, :level= => nil, :error => nil)
     @tweetfeed_conf = TweetfeedConfig.new logger
     config_file = File.join(Dir.pwd, 'spec', 'test_config.yml')
     @tweetfeed_conf.read config_file
@@ -20,6 +20,12 @@ describe TweetfeedConfig do
     config = @tweetfeed_conf
     response = config.hashtags.size
     response.should == 3
+  end
+
+  it "should exit when there are no hashtags" do
+    config = @tweetfeed_conf
+    config_file = File.join(Dir.pwd, 'spec', 'test_config_no_hashtags.yml')
+    lambda {config.read config_file}.should raise_error
   end
 
   it "should save an updated last_id" do
