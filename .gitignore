@@ -1,6 +1,7 @@
 *.swp
 *.output
 *.pid
+.rspec
 *.tweetfeed.xml
 Gemfile.lock
 tags
