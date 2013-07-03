@@ -54,7 +54,6 @@ class Tweetfeed
 
     rescue EOFError, SocketError, Twitter::Error::ClientError
       @logger.error "Connection to Twitter seems to be not available."
-      exit
     end
   end
 
@@ -92,7 +91,6 @@ class Tweetfeed
        tweets_with_urls << tweet unless tweet.urls.empty?
       end
     end
-    p tweets_with_urls
     tweets_with_urls
   end
 end
