@@ -108,7 +108,10 @@ class TweetfeedGenerator
     resp = 'empty'
     begin
       @logger.debug short_url.class
-      resp = Curl::Easy.http_get(short_url) { |res| res.follow_location = true }
+      resp = Curl::Easy.http_get(short_url) do |res| 
+        res.follow_location = true 
+        res.max_redirects = 3
+      end
       @logger.debug resp.response_code
     rescue => err
       @logger.error "Curl::Easy.http_get failed: #{err}"
