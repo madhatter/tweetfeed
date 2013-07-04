@@ -3,5 +3,6 @@
 *.pid
 .rspec
 *.tweetfeed.xml
+coverage
 Gemfile.lock
 tags

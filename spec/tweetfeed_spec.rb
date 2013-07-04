@@ -21,10 +21,16 @@ describe Tweetfeed do
     response.should == 3
   end
 
-  it "should find x tweets with urls" do
+  it "should find 3 tweets with urls" do
     tf = @tweetfeed
     response = tf.filter_tweets_with_urls @tweets_array
     response.size.should == 3
+  end
+
+  it "should calculate the correct latest id from search results" do
+    tf = @tweetfeed
+    response = tf.calculate_last_id @tweets_array
+    response.should == 352505432557879296
   end
 end
 
