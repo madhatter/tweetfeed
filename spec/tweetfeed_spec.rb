@@ -34,6 +34,12 @@ describe Tweetfeed do
     response.size.should == 3
   end
 
+  it "should return an array with tweets containing urls" do
+    tf = @tweetfeed
+    response = tf.filter_tweets_with_urls @tweets_array
+    response.should be_an_instance_of Array
+  end
+
   it "should calculate the correct latest id from search results" do
     tf = @tweetfeed
     response = tf.calculate_last_id @tweets_array
@@ -50,6 +56,12 @@ describe Tweetfeed do
     tf = @tweetfeed
     result = tf.search "#rspec"
     result.should_not == nil
+  end
+
+  it "should collect an array of results" do
+    tf = @tweetfeed
+    result = tf.collect_tweets
+    result.should be_an_instance_of Array
   end
 end
 
