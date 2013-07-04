@@ -1,0 +1,2951 @@
+---
+- - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 18:27:27 +0000 2013
+      :id: 352493806437941248
+      :id_str: '352493806437941248'
+      :text: ! 'Explaining to Alex why I''m called Duchess Boob. Well, isn''t it obvious?
+        #bewbs'
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 513475899
+        :id_str: '513475899'
+        :name: Cherry Kills Kills
+        :screen_name: duchessboob
+        :location: Norwich
+        :description: ! "Jehovah's son, ofc.\r\nFollowed by @NataliaKills on 28/02/2013."
+        :url: http://t.co/S2mrouO9t6
+        :entities:
+          :url:
+            :urls:
+            - :url: http://t.co/S2mrouO9t6
+              :expanded_url: http://sexwithgagaplease.tumblr.com
+              :display_url: sexwithgagaplease.tumblr.com
+              :indices:
+              - 0
+              - 22
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 739
+        :friends_count: 1812
+        :listed_count: 0
+        :created_at: Sat Mar 03 18:53:19 +0000 2012
+        :favourites_count: 1265
+        :utc_offset: 0
+        :time_zone: London
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 3281
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/797496272/0c1b30c12b2adcad714b8dcc9c55c323.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/797496272/0c1b30c12b2adcad714b8dcc9c55c323.jpeg
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/3504479788/e27700eb6640736a031c9606f765011a_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3504479788/e27700eb6640736a031c9606f765011a_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/513475899/1368644840
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 72
+          - 78
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 17:49:40 +0000 2013
+      :id: 352484298030452736
+      :id_str: '352484298030452736'
+      :text: ! '#MapleStory #Xenon #bewbs MY BODY IS READY &lt;3'
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 612914928
+        :id_str: '612914928'
+        :name: Mitsunebewbs
+        :screen_name: GamerBewbs
+        :location: Married · CMardiaYK
+        :description: Global MapleStory Blogger with a twist!
+        :url: http://t.co/EhWxU0dzzI
+        :entities:
+          :url:
+            :urls:
+            - :url: http://t.co/EhWxU0dzzI
+              :expanded_url: http://gamerbewbs.wordpress.com/
+              :display_url: gamerbewbs.wordpress.com
+              :indices:
+              - 0
+              - 22
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 186
+        :friends_count: 281
+        :listed_count: 1
+        :created_at: Tue Jun 19 20:26:00 +0000 2012
+        :favourites_count: 293
+        :utc_offset: -25200
+        :time_zone: Arizona
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 1069
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: 7B4F5D
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/704637436/622a7f2f74182546f7690df2654b4f75.png
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/704637436/622a7f2f74182546f7690df2654b4f75.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000081141837/745db9ea73ab4f7c0e3b23744371ae6a_normal.png
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000081141837/745db9ea73ab4f7c0e3b23744371ae6a_normal.png
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/612914928/1352246218
+        :profile_link_color: 5C246A
+        :profile_sidebar_border_color: '000000'
+        :profile_sidebar_fill_color: 7414CD
+        :profile_text_color: 863CBA
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: MapleStory
+          :indices:
+          - 0
+          - 11
+        - :text: Xenon
+          :indices:
+          - 12
+          - 18
+        - :text: bewbs
+          :indices:
+          - 19
+          - 25
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 17:29:15 +0000 2013
+      :id: 352479161689964545
+      :id_str: '352479161689964545'
+      :text: ! "\U0001F61D #red #white #bewbs http://t.co/qXqVF5rpgb"
+      :source: <a href="http://instagram.com" rel="nofollow">Instagram</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 58737587
+        :id_str: '58737587'
+        :name: Perlie V
+        :screen_name: missperlievixen
+        :location: Perlie's World
+        :description: exotic blend of sugar & spice.
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 711
+        :friends_count: 186
+        :listed_count: 9
+        :created_at: Tue Jul 21 07:51:08 +0000 2009
+        :favourites_count: 2
+        :utc_offset: -28800
+        :time_zone: Pacific Time (US & Canada)
+        :geo_enabled: true
+        :verified: false
+        :statuses_count: 3056
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: EBEBEB
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/161777448/l_59df891654f53bb96262dbf01414a63f-2.jpg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/161777448/l_59df891654f53bb96262dbf01414a63f-2.jpg
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/1305245899/l_1ce629213f90dbe46ada7712a890d985-1_normal.jpg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/1305245899/l_1ce629213f90dbe46ada7712a890d985-1_normal.jpg
+        :profile_link_color: '990000'
+        :profile_sidebar_border_color: DFDFDF
+        :profile_sidebar_fill_color: F3F3F3
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: red
+          :indices:
+          - 2
+          - 6
+        - :text: white
+          :indices:
+          - 7
+          - 13
+        - :text: bewbs
+          :indices:
+          - 14
+          - 20
+        :symbols: []
+        :urls:
+        - :url: http://t.co/qXqVF5rpgb
+          :expanded_url: http://instagram.com/p/bSqEA5sXEJ/
+          :display_url: instagram.com/p/bSqEA5sXEJ/
+          :indices:
+          - 21
+          - 43
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 17:15:43 +0000 2013
+      :id: 352475756175171584
+      :id_str: '352475756175171584'
+      :text: ! '@dannfpe #bewbs....'
+      :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+        for Android</a>
+      :truncated: false
+      :in_reply_to_status_id: 352471226138103808
+      :in_reply_to_status_id_str: '352471226138103808'
+      :in_reply_to_user_id: 123640817
+      :in_reply_to_user_id_str: '123640817'
+      :in_reply_to_screen_name: dannfpe
+      :user:
+        :id: 1102804596
+        :id_str: '1102804596'
+        :name: JacobR!
+        :screen_name: Rothermellon
+        :location: ''
+        :description: ! "Nerd.  Husband.  Jedi.  Technical Designer.\r\n\r\nMore/Less
+          in that order"
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 81
+        :friends_count: 108
+        :listed_count: 2
+        :created_at: Sat Jan 19 04:56:35 +0000 2013
+        :favourites_count: 8
+        :utc_offset: -18000
+        :time_zone: Eastern Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 1601
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: 0B3B0B
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/767939273/d17744589317c21cceb7fe3a8eeca868.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/767939273/d17744589317c21cceb7fe3a8eeca868.jpeg
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3129649013/a5b963d2052b184e10eed0d592d866c8_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3129649013/a5b963d2052b184e10eed0d592d866c8_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/1102804596/1358650360
+        :profile_link_color: 107A10
+        :profile_sidebar_border_color: '000000'
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 1
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 9
+          - 15
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: dannfpe
+          :name: Dann
+          :id: 123640817
+          :id_str: '123640817'
+          :indices:
+          - 0
+          - 8
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 17:11:24 +0000 2013
+      :id: 352474668424372225
+      :id_str: '352474668424372225'
+      :text: ! '@decaturstone we''re bringing back the #bewbs #hashtag @cindasmommy'
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 352474387879956480
+      :in_reply_to_status_id_str: '352474387879956480'
+      :in_reply_to_user_id: 24695928
+      :in_reply_to_user_id_str: '24695928'
+      :in_reply_to_screen_name: decaturstone
+      :user:
+        :id: 900303948
+        :id_str: '900303948'
+        :name: La Fer
+        :screen_name: lenubienne
+        :location: On my path to amazing
+        :description: Lover of life, wanderluster & excitable epicurean. Sweetheart,
+          foul mouth & work in progress. I'm not a blogger, I just tweet a lot. Twitter
+          jail = @LeBoobienne
+        :url: https://t.co/Xj2NNzZ6im
+        :entities:
+          :url:
+            :urls:
+            - :url: https://t.co/Xj2NNzZ6im
+              :expanded_url: https://www.advocare.com/13043015/Products/default.aspx
+              :display_url: advocare.com/13043015/Produ…
+              :indices:
+              - 0
+              - 23
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 544
+        :friends_count: 1641
+        :listed_count: 2
+        :created_at: Tue Oct 23 17:55:31 +0000 2012
+        :favourites_count: 1368
+        :utc_offset: -18000
+        :time_zone: Eastern Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 16435
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: EDF2F5
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/344511763025114013/460fc60937e4967e2ce9bfaace1e1ab1.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/344511763025114013/460fc60937e4967e2ce9bfaace1e1ab1.jpeg
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000081892617/f2f3804fa2d6e37d8db2e23aa0ae4c86_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000081892617/f2f3804fa2d6e37d8db2e23aa0ae4c86_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/900303948/1371766047
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: '000000'
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 38
+          - 44
+        - :text: hashtag
+          :indices:
+          - 45
+          - 53
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: decaturstone
+          :name: Simon Stone
+          :id: 24695928
+          :id_str: '24695928'
+          :indices:
+          - 0
+          - 13
+        - :screen_name: cindasmommy
+          :name: Chesty Shimmerbottom
+          :id: 16274709
+          :id_str: '16274709'
+          :indices:
+          - 54
+          - 66
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 17:02:29 +0000 2013
+      :id: 352472424094265344
+      :id_str: '352472424094265344'
+      :text: ! 'I know it''s early, but I''m #boredatwork HAPPY BIRTHDAY, MURICA!
+        #chivette #bewbs http://t.co/WM4acBfLy0'
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+        for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 32443983
+        :id_str: '32443983'
+        :name: Heather McConnell
+        :screen_name: heatheraubrey
+        :location: Cincinnati, OH
+        :description: ! "Forget about your bitching and remember that you're blessed.
+          \n#fthc #kcco #berrylove #chivette"
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 255
+        :friends_count: 406
+        :listed_count: 4
+        :created_at: Fri Apr 17 15:20:45 +0000 2009
+        :favourites_count: 264
+        :utc_offset: -18000
+        :time_zone: Eastern Time (US & Canada)
+        :geo_enabled: true
+        :verified: false
+        :statuses_count: 2110
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: FFFFFF
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/535837028/sports_baseball_template_1.jpg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/535837028/sports_baseball_template_1.jpg
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000079816526/091e62a625823c787714ad4fb0f8c081_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000079816526/091e62a625823c787714ad4fb0f8c081_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/32443983/1362860895
+        :profile_link_color: 038543
+        :profile_sidebar_border_color: EEEEEE
+        :profile_sidebar_fill_color: F6F6F6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 5
+      :entities:
+        :hashtags:
+        - :text: boredatwork
+          :indices:
+          - 27
+          - 39
+        - :text: chivette
+          :indices:
+          - 64
+          - 73
+        - :text: bewbs
+          :indices:
+          - 74
+          - 80
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+        :media:
+        - :id: 352472424098459648
+          :id_str: '352472424098459648'
+          :indices:
+          - 81
+          - 103
+          :media_url: http://pbs.twimg.com/media/BOQ7zV-CcAAspmQ.jpg
+          :media_url_https: https://pbs.twimg.com/media/BOQ7zV-CcAAspmQ.jpg
+          :url: http://t.co/WM4acBfLy0
+          :display_url: pic.twitter.com/WM4acBfLy0
+          :expanded_url: http://twitter.com/heatheraubrey/status/352472424094265344/photo/1
+          :type: photo
+          :sizes:
+            :thumb:
+              :w: 150
+              :h: 150
+              :resize: crop
+            :medium:
+              :w: 600
+              :h: 801
+              :resize: fit
+            :small:
+              :w: 340
+              :h: 454
+              :resize: fit
+            :large:
+              :w: 640
+              :h: 854
+              :resize: fit
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 15:25:10 +0000 2013
+      :id: 352447935046369280
+      :id_str: '352447935046369280'
+      :text: ! '@ReignOfApril @HelloPoodle The dog IS adorable. But I was fishing
+        for #bewbs... :-('
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 352446985741144065
+      :in_reply_to_status_id_str: '352446985741144065'
+      :in_reply_to_user_id: 119972954
+      :in_reply_to_user_id_str: '119972954'
+      :in_reply_to_screen_name: ReignOfApril
+      :user:
+        :id: 834155922
+        :id_str: '834155922'
+        :name: Kam_Da_Gr8
+        :screen_name: DocReviewHell
+        :location: DMV eryah
+        :description: I DJ and KJ in the DMV. Being a lawyer is my side hustle. I
+          love my president, so dis him at your own risk. I'm smart, but ratchet,
+          and you will deal.
+        :url: http://t.co/1iwqRzr1Sl
+        :entities:
+          :url:
+            :urls:
+            - :url: http://t.co/1iwqRzr1Sl
+              :expanded_url: http://www.blacklotuschronicles.wordpress.com
+              :display_url: blacklotuschronicles.wordpress.com
+              :indices:
+              - 0
+              - 22
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 288
+        :friends_count: 395
+        :listed_count: 17
+        :created_at: Wed Sep 19 21:21:53 +0000 2012
+        :favourites_count: 161
+        :utc_offset: -18000
+        :time_zone: Eastern Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 12109
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: 0099B9
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme4/bg.gif
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme4/bg.gif
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3720875454/5bd95e0f77323617b3ce2a3ef6ef7462_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3720875454/5bd95e0f77323617b3ce2a3ef6ef7462_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/834155922/1369709941
+        :profile_link_color: 0099B9
+        :profile_sidebar_border_color: 5ED4DC
+        :profile_sidebar_fill_color: 95E8EC
+        :profile_text_color: 3C3940
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 1
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 70
+          - 76
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: ReignOfApril
+          :name: ! 'April '
+          :id: 119972954
+          :id_str: '119972954'
+          :indices:
+          - 0
+          - 13
+        - :screen_name: HelloPoodle
+          :name: hellopoodle
+          :id: 33189932
+          :id_str: '33189932'
+          :indices:
+          - 14
+          - 26
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 14:09:18 +0000 2013
+      :id: 352428843421810688
+      :id_str: '352428843421810688'
+      :text: ! '@KCCO_Toronto @ttoxxiccandee Wow she is smoking hott! And has some
+        great #bewbs oh wait I meant #eyes! #KCCO #OfficiallyFollowingHer'
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 352427686452400128
+      :in_reply_to_status_id_str: '352427686452400128'
+      :in_reply_to_user_id: 1250323105
+      :in_reply_to_user_id_str: '1250323105'
+      :in_reply_to_screen_name: KCCO_Toronto
+      :user:
+        :id: 794522834
+        :id_str: '794522834'
+        :name: FL Chiver
+        :screen_name: bballking2161
+        :location: Florida
+        :description: ! '#sideboob #POV #underboob #bewbs Lets show them all! #KCCO'
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 72
+        :friends_count: 370
+        :listed_count: 0
+        :created_at: Fri Aug 31 19:33:40 +0000 2012
+        :favourites_count: 178
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 562
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3758741552/4fb18f23da88ed294bd01168e6c7c8da_normal.png
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3758741552/4fb18f23da88ed294bd01168e6c7c8da_normal.png
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 2
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 73
+          - 79
+        - :text: eyes
+          :indices:
+          - 96
+          - 101
+        - :text: KCCO
+          :indices:
+          - 103
+          - 108
+        - :text: OfficiallyFollowingHer
+          :indices:
+          - 109
+          - 132
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: KCCO_Toronto
+          :name: The CHIVE Toronto
+          :id: 1250323105
+          :id_str: '1250323105'
+          :indices:
+          - 0
+          - 13
+        - :screen_name: ttoxxiccandee
+          :name: Chivette Cristin
+          :id: 1563972632
+          :id_str: '1563972632'
+          :indices:
+          - 14
+          - 28
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 13:26:13 +0000 2013
+      :id: 352417999065583617
+      :id_str: '352417999065583617'
+      :text: ! '@obeymilla #bewbs'
+      :source: <a href="http://www.tweetdeck.com" rel="nofollow">TweetDeck</a>
+      :truncated: false
+      :in_reply_to_status_id: 352417697516105728
+      :in_reply_to_status_id_str: '352417697516105728'
+      :in_reply_to_user_id: 44848218
+      :in_reply_to_user_id_str: '44848218'
+      :in_reply_to_screen_name: obeymilla
+      :user:
+        :id: 159110164
+        :id_str: '159110164'
+        :name: Toodles Galore
+        :screen_name: MissPinkyGalore
+        :location: tinyurl.com/CallMissPinky
+        :description: ! 'Lovingly Cruel #Greedy #Snob, Selfish Bitch, Haughty Humiliatrix,
+          #Financial #Dominatrix, Elitist Brain Teaser, Self Supremacist, Candy Snatcher
+          Love Goddess!'
+        :url: http://t.co/a70Dvp1XOz
+        :entities:
+          :url:
+            :urls:
+            - :url: http://t.co/a70Dvp1XOz
+              :expanded_url: http://www.misspinkygalore.com
+              :display_url: misspinkygalore.com
+              :indices:
+              - 0
+              - 22
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 2923
+        :friends_count: 73
+        :listed_count: 56
+        :created_at: Thu Jun 24 13:38:45 +0000 2010
+        :favourites_count: 1127
+        :utc_offset: -21600
+        :time_zone: Central Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 18569
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: FF6699
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/287414790/51NaRA1rm3L._SL500_AA300_.jpg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/287414790/51NaRA1rm3L._SL500_AA300_.jpg
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000023333459/e9618bacd6bd30a6fd7b6d799648db7e_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000023333459/e9618bacd6bd30a6fd7b6d799648db7e_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/159110164/1372638392
+        :profile_link_color: B40B43
+        :profile_sidebar_border_color: CC3366
+        :profile_sidebar_fill_color: E5507E
+        :profile_text_color: '362720'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 11
+          - 17
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: obeymilla
+          :name: ❤MILLUMINATTI❤
+          :id: 44848218
+          :id_str: '44848218'
+          :indices:
+          - 0
+          - 10
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 13:18:05 +0000 2013
+      :id: 352415951842574337
+      :id_str: '352415951842574337'
+      :text: ! '@MissViolet420 can I touch your #bewbs? Lol'
+      :source: <a href="http://tapbots.com/tweetbot" rel="nofollow">Tweetbot for iOS</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 254100890
+      :in_reply_to_user_id_str: '254100890'
+      :in_reply_to_screen_name: MissViolet420
+      :user:
+        :id: 551429652
+        :id_str: '551429652'
+        :name: Даниэль
+        :screen_name: DaniellesTwits
+        :location: Moscow, Russia
+        :description: ! 'Lesbian, I have no desire to see your dick. I''m a #cutie.
+          I have a cat. I love #mma, #bjj, @sonnench, and seeing people punch one
+          another :)'
+        :url: http://t.co/lXkD8nITU0
+        :entities:
+          :url:
+            :urls:
+            - :url: http://t.co/lXkD8nITU0
+              :expanded_url: http://daniellestwits.tumblr.com
+              :display_url: daniellestwits.tumblr.com
+              :indices:
+              - 0
+              - 22
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 8059
+        :friends_count: 153
+        :listed_count: 45
+        :created_at: Wed Apr 11 21:51:53 +0000 2012
+        :favourites_count: 496
+        :utc_offset: -21600
+        :time_zone: Central Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 22290
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: DBE9ED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme17/bg.gif
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme17/bg.gif
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3540266971/8919ea84f237998ed8d279df58bad338_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3540266971/8919ea84f237998ed8d279df58bad338_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/551429652/1359994631
+        :profile_link_color: CC3366
+        :profile_sidebar_border_color: DBE9ED
+        :profile_sidebar_fill_color: E6F6F9
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 32
+          - 38
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: MissViolet420
+          :name: Violet 420
+          :id: 254100890
+          :id_str: '254100890'
+          :indices:
+          - 0
+          - 14
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 12:44:09 +0000 2013
+      :id: 352407414068355072
+      :id_str: '352407414068355072'
+      :text: ! '@mrschivettewv also it''s good to see them often ! #bewbs'
+      :source: <a href="http://twitter.com/#!/download/ipad" rel="nofollow">Twitter
+        for iPad</a>
+      :truncated: false
+      :in_reply_to_status_id: 352406920474271744
+      :in_reply_to_status_id_str: '352406920474271744'
+      :in_reply_to_user_id: 1565665189
+      :in_reply_to_user_id_str: '1565665189'
+      :in_reply_to_screen_name: mrschivettewv
+      :user:
+        :id: 736774176
+        :id_str: '736774176'
+        :name: Brian Patterson
+        :screen_name: kbrianpatterson
+        :location: ''
+        :description: ''
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 28
+        :friends_count: 84
+        :listed_count: 0
+        :created_at: Sat Aug 04 13:54:09 +0000 2012
+        :favourites_count: 141
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 89
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000079459525/e57f1e04d2b2c2dd7831feaf3f6c7346_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000079459525/e57f1e04d2b2c2dd7831feaf3f6c7346_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/736774176/1370498670
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 50
+          - 56
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: mrschivettewv
+          :name: MrsChivetteWv
+          :id: 1565665189
+          :id_str: '1565665189'
+          :indices:
+          - 0
+          - 14
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 12:32:51 +0000 2013
+      :id: 352404570418327553
+      :id_str: '352404570418327553'
+      :text: ! '@doubleDchivette @k_kcco @theCHIVE we can all get along for the love
+        of #bewbs'
+      :source: <a href="http://twitter.com/tweetbutton" rel="nofollow">Tweet Button</a>
+      :truncated: false
+      :in_reply_to_status_id: 352404268503928834
+      :in_reply_to_status_id_str: '352404268503928834'
+      :in_reply_to_user_id: 1408190389
+      :in_reply_to_user_id_str: '1408190389'
+      :in_reply_to_screen_name: doubleDchivette
+      :user:
+        :id: 188492106
+        :id_str: '188492106'
+        :name: T. Kenny
+        :screen_name: TN_Kenny
+        :location: London
+        :description: ! 'Bearded QA for Digital Extremes and Loving It. #KCCO #BeardLove'
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 129
+        :friends_count: 887
+        :listed_count: 1
+        :created_at: Wed Sep 08 21:29:29 +0000 2010
+        :favourites_count: 1070
+        :utc_offset: -18000
+        :time_zone: Quito
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 3592
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: '000000'
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/774895832/ea80bdbc7b5aafd50c366abea6510b85.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/774895832/ea80bdbc7b5aafd50c366abea6510b85.jpeg
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3430398805/4ec911e32ee0fcf090bcab707452f826_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3430398805/4ec911e32ee0fcf090bcab707452f826_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/188492106/1348835934
+        :profile_link_color: EB0303
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: '000000'
+        :profile_text_color: E6E6E6
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 3
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 72
+          - 78
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: doubleDchivette
+          :name: Calm Your Tits Kel
+          :id: 1408190389
+          :id_str: '1408190389'
+          :indices:
+          - 0
+          - 16
+        - :screen_name: k_kcco
+          :name: Sassy KCCO
+          :id: 1410890400
+          :id_str: '1410890400'
+          :indices:
+          - 17
+          - 24
+        - :screen_name: theCHIVE
+          :name: theCHIVE
+          :id: 20279424
+          :id_str: '20279424'
+          :indices:
+          - 25
+          - 34
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 12:26:41 +0000 2013
+      :id: 352403016256720897
+      :id_str: '352403016256720897'
+      :text: ! '@doubleDchivette @k_kcco @theCHIVE how can you not like this. #bewbs'
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 352399011552047104
+      :in_reply_to_status_id_str: '352399011552047104'
+      :in_reply_to_user_id: 1408190389
+      :in_reply_to_user_id_str: '1408190389'
+      :in_reply_to_screen_name: doubleDchivette
+      :user:
+        :id: 188492106
+        :id_str: '188492106'
+        :name: T. Kenny
+        :screen_name: TN_Kenny
+        :location: London
+        :description: ! 'Bearded QA for Digital Extremes and Loving It. #KCCO #BeardLove'
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 129
+        :friends_count: 887
+        :listed_count: 1
+        :created_at: Wed Sep 08 21:29:29 +0000 2010
+        :favourites_count: 1070
+        :utc_offset: -18000
+        :time_zone: Quito
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 3592
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: '000000'
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/774895832/ea80bdbc7b5aafd50c366abea6510b85.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/774895832/ea80bdbc7b5aafd50c366abea6510b85.jpeg
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3430398805/4ec911e32ee0fcf090bcab707452f826_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3430398805/4ec911e32ee0fcf090bcab707452f826_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/188492106/1348835934
+        :profile_link_color: EB0303
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: '000000'
+        :profile_text_color: E6E6E6
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 1
+      :entities:
+        :hashtags:
+        - :text: bewbs
+          :indices:
+          - 62
+          - 68
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: doubleDchivette
+          :name: Calm Your Tits Kel
+          :id: 1408190389
+          :id_str: '1408190389'
+          :indices:
+          - 0
+          - 16
+        - :screen_name: k_kcco
+          :name: Sassy KCCO
+          :id: 1410890400
+          :id_str: '1410890400'
+          :indices:
+          - 17
+          - 24
+        - :screen_name: theCHIVE
+          :name: theCHIVE
+          :id: 20279424
+          :id_str: '20279424'
+          :indices:
+          - 25
+          - 34
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 11:36:21 +0000 2013
+      :id: 352390353321603072
+      :id_str: '352390353321603072'
+      :text: ! '"@k_kcco: New hoodie so I #burnedit #bewbs @theCHIVE http://t.co/OCFrTMGqPm"'
+      :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+        for Android</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 1219306040
+        :id_str: '1219306040'
+        :name: sexysportsworld
+        :screen_name: sexysportsworld
+        :location: ''
+        :description: showing the sexier side of the sports world. send ur submissions
+          to sexysportsworld@gmail.com 18+
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 846
+        :friends_count: 234
+        :listed_count: 5
+        :created_at: Mon Feb 25 16:50:09 +0000 2013
+        :favourites_count: 352
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 1583
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3307148532/237e1092acc5a8975671beb03adafad2_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3307148532/237e1092acc5a8975671beb03adafad2_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/1219306040/1369313009
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 1
+      :favorite_count: 3
+      :entities:
+        :hashtags:
+        - :text: burnedit
+          :indices:
+          - 26
+          - 35
+        - :text: bewbs
+          :indices:
+          - 36
+          - 42
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: k_kcco
+          :name: Sassy KCCO
+          :id: 1410890400
+          :id_str: '1410890400'
+          :indices:
+          - 1
+          - 8
+        - :screen_name: theCHIVE
+          :name: theCHIVE
+          :id: 20279424
+          :id_str: '20279424'
+          :indices:
+          - 43
+          - 52
+        :media:
+        - :id: 352379145373773824
+          :id_str: '352379145373773824'
+          :indices:
+          - 53
+          - 75
+          :media_url: http://pbs.twimg.com/media/BOPm9zpCcAAUmSf.jpg
+          :media_url_https: https://pbs.twimg.com/media/BOPm9zpCcAAUmSf.jpg
+          :url: http://t.co/OCFrTMGqPm
+          :display_url: pic.twitter.com/OCFrTMGqPm
+          :expanded_url: http://twitter.com/k_kcco/status/352379145365385216/photo/1
+          :type: photo
+          :sizes:
+            :medium:
+              :w: 600
+              :h: 450
+              :resize: fit
+            :large:
+              :w: 1024
+              :h: 768
+              :resize: fit
+            :thumb:
+              :w: 150
+              :h: 150
+              :resize: crop
+            :small:
+              :w: 340
+              :h: 255
+              :resize: fit
+          :source_status_id: 352379145365385216
+          :source_status_id_str: '352379145365385216'
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 10:51:49 +0000 2013
+      :id: 352379145365385216
+      :id_str: '352379145365385216'
+      :text: ! 'New hoodie so I #burnedit #bewbs @theCHIVE http://t.co/3ud0B9UnED'
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+        for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 1410890400
+        :id_str: '1410890400'
+        :name: Sassy KCCO
+        :screen_name: k_kcco
+        :location: ''
+        :description: ''
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 4262
+        :friends_count: 804
+        :listed_count: 33
+        :created_at: Tue May 07 18:27:37 +0000 2013
+        :favourites_count: 8658
+        :utc_offset: -21600
+        :time_zone: Central Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 3186
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000068474460/c526da791146fab59961d4ef166210d8_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000068474460/c526da791146fab59961d4ef166210d8_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/1410890400/1368007086
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 2
+      :favorite_count: 130
+      :entities:
+        :hashtags:
+        - :text: burnedit
+          :indices:
+          - 16
+          - 25
+        - :text: bewbs
+          :indices:
+          - 26
+          - 32
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: theCHIVE
+          :name: theCHIVE
+          :id: 20279424
+          :id_str: '20279424'
+          :indices:
+          - 33
+          - 42
+        :media:
+        - :id: 352379145373773824
+          :id_str: '352379145373773824'
+          :indices:
+          - 43
+          - 65
+          :media_url: http://pbs.twimg.com/media/BOPm9zpCcAAUmSf.jpg
+          :media_url_https: https://pbs.twimg.com/media/BOPm9zpCcAAUmSf.jpg
+          :url: http://t.co/3ud0B9UnED
+          :display_url: pic.twitter.com/3ud0B9UnED
+          :expanded_url: http://twitter.com/k_kcco/status/352379145365385216/photo/1
+          :type: photo
+          :sizes:
+            :medium:
+              :w: 600
+              :h: 450
+              :resize: fit
+            :large:
+              :w: 1024
+              :h: 768
+              :resize: fit
+            :thumb:
+              :w: 150
+              :h: 150
+              :resize: crop
+            :small:
+              :w: 340
+              :h: 255
+              :resize: fit
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: en
+- - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:13:39 +0000 2013
+      :id: 352505432557879296
+      :id_str: '352505432557879296'
+      :text: ! '“@Horny_ass_L: @ThroatFucker13 see no panties at work #underdeskshot
+        #pussy #horny http://t.co/Q2Heevw6Ed” yummy xx'
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+        for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 296195557427380224
+      :in_reply_to_status_id_str: '296195557427380224'
+      :in_reply_to_user_id: 1122310970
+      :in_reply_to_user_id_str: '1122310970'
+      :in_reply_to_screen_name: Horny_ass_L
+      :user:
+        :id: 1556544439
+        :id_str: '1556544439'
+        :name: Danny
+        :screen_name: funkychickenf
+        :location: ! 'UK Yorkshire '
+        :description: New to twitter 30 sommat looking for secret fun. DM me. Kik
+          me a Danny Uk. Lets just have some fun
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 6
+        :friends_count: 99
+        :listed_count: 0
+        :created_at: Sat Jun 29 20:58:12 +0000 2013
+        :favourites_count: 43
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 223
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000078205907/2d08d059f97e19b92f567e91f0e4aa10_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000078205907/2d08d059f97e19b92f567e91f0e4aa10_normal.jpeg
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: underdeskshot
+          :indices:
+          - 54
+          - 68
+        - :text: pussy
+          :indices:
+          - 69
+          - 75
+        - :text: horny
+          :indices:
+          - 76
+          - 82
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: Horny_ass_L
+          :name: LoveMyAss
+          :id: 1122310970
+          :id_str: '1122310970'
+          :indices:
+          - 1
+          - 13
+        - :screen_name: ThroatFucker13
+          :name: White Meat
+          :id: 986534394
+          :id_str: '986534394'
+          :indices:
+          - 15
+          - 30
+        :media:
+        - :id: 296195557431574528
+          :id_str: '296195557431574528'
+          :indices:
+          - 83
+          - 105
+          :media_url: http://pbs.twimg.com/media/BBxMSkjCAAAklUg.jpg
+          :media_url_https: https://pbs.twimg.com/media/BBxMSkjCAAAklUg.jpg
+          :url: http://t.co/Q2Heevw6Ed
+          :display_url: pic.twitter.com/Q2Heevw6Ed
+          :expanded_url: http://twitter.com/Horny_ass_L/status/296195557427380224/photo/1
+          :type: photo
+          :sizes:
+            :large:
+              :w: 1024
+              :h: 764
+              :resize: fit
+            :small:
+              :w: 340
+              :h: 254
+              :resize: fit
+            :thumb:
+              :w: 150
+              :h: 150
+              :resize: crop
+            :medium:
+              :w: 600
+              :h: 448
+              :resize: fit
+          :source_status_id: 296195557427380224
+          :source_status_id_str: '296195557427380224'
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: de
+      :created_at: Wed Jul 03 19:13:33 +0000 2013
+      :id: 352505407840870400
+      :id_str: '352505407840870400'
+      :text: ! '@Mic73s #whiteboy #hottie #single #horny #myhomie LOL http://t.co/4wO4vE2n4b'
+      :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter
+        for Android</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 61906708
+      :in_reply_to_user_id_str: '61906708'
+      :in_reply_to_screen_name: Mic73s
+      :user:
+        :id: 520417579
+        :id_str: '520417579'
+        :name: 武志 Takeshi
+        :screen_name: Theshan29
+        :location: TomorrowLand
+        :description: The Official Twitter Account of Theshan Govender, fought in
+          the vietnam war and survived like a Bau5
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 377
+        :friends_count: 354
+        :listed_count: 1
+        :created_at: Sat Mar 10 13:57:56 +0000 2012
+        :favourites_count: 227
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 3789
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: 9695B3
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/886513790/59348cd364ba12fbcd92182a689da7b9.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/886513790/59348cd364ba12fbcd92182a689da7b9.jpeg
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000082509827/017679c0cd35360537525a1e51695137_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000082509827/017679c0cd35360537525a1e51695137_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/520417579/1372864404
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: whiteboy
+          :indices:
+          - 8
+          - 17
+        - :text: hottie
+          :indices:
+          - 18
+          - 25
+        - :text: single
+          :indices:
+          - 26
+          - 33
+        - :text: horny
+          :indices:
+          - 34
+          - 40
+        - :text: myhomie
+          :indices:
+          - 41
+          - 49
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: Mic73s
+          :name: M٭ Y٭ C٭ H٭ Λ٭ Ǝ٭ L
+          :id: 61906708
+          :id_str: '61906708'
+          :indices:
+          - 0
+          - 7
+        :media:
+        - :id: 352505407849259008
+          :id_str: '352505407849259008'
+          :indices:
+          - 54
+          - 76
+          :media_url: http://pbs.twimg.com/media/BORZzQBCYAAAf0b.jpg
+          :media_url_https: https://pbs.twimg.com/media/BORZzQBCYAAAf0b.jpg
+          :url: http://t.co/4wO4vE2n4b
+          :display_url: pic.twitter.com/4wO4vE2n4b
+          :expanded_url: http://twitter.com/Theshan29/status/352505407840870400/photo/1
+          :type: photo
+          :sizes:
+            :small:
+              :w: 340
+              :h: 604
+              :resize: fit
+            :thumb:
+              :w: 150
+              :h: 150
+              :resize: crop
+            :large:
+              :w: 432
+              :h: 768
+              :resize: fit
+            :medium:
+              :w: 432
+              :h: 768
+              :resize: fit
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: de
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:13:17 +0000 2013
+      :id: 352505341767983105
+      :id_str: '352505341767983105'
+      :text: ! 'let me plz ur whole body baby!!! #teamlesbian #fems #studs #stems
+        #f4f #horny #love'
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 823967977
+        :id_str: '823967977'
+        :name: ~BabyGirl~
+        :screen_name: babygirl8183
+        :location: Virgina
+        :description: ! 'Wateva y''all wanna know just ask me! #engaged #teamlesbian
+          #girlongirl! happy with mi girl n love having new followers:) so hit dat
+          follower button!!'
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 706
+        :friends_count: 1412
+        :listed_count: 0
+        :created_at: Fri Sep 14 20:43:58 +0000 2012
+        :favourites_count: 135
+        :utc_offset: -18000
+        :time_zone: Eastern Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 4103
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: FF0000
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/779540767/7cabd1ea8696ecfafeca138400d120ae.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/779540767/7cabd1ea8696ecfafeca138400d120ae.jpeg
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/3372630447/3335194751d9a28736da08bbf31824c5_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3372630447/3335194751d9a28736da08bbf31824c5_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/823967977/1359737748
+        :profile_link_color: FF0083
+        :profile_sidebar_border_color: '000000'
+        :profile_sidebar_fill_color: 00E7FF
+        :profile_text_color: 85FF00
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: teamlesbian
+          :indices:
+          - 33
+          - 45
+        - :text: fems
+          :indices:
+          - 46
+          - 51
+        - :text: studs
+          :indices:
+          - 52
+          - 58
+        - :text: stems
+          :indices:
+          - 59
+          - 65
+        - :text: f4f
+          :indices:
+          - 66
+          - 70
+        - :text: horny
+          :indices:
+          - 71
+          - 77
+        - :text: love
+          :indices:
+          - 78
+          - 83
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:11:15 +0000 2013
+      :id: 352504832638201857
+      :id_str: '352504832638201857'
+      :text: ! 'Sup guys? Anyone #horny? #teambigdick'
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 924846762
+        :id_str: '924846762'
+        :name: Jeremy S.
+        :screen_name: HereForNow9
+        :location: NYC
+        :description: 24. Always horny. This is my way of dealing with it ;) I follow
+          back. DM me if you want to chat.
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 162
+        :friends_count: 367
+        :listed_count: 0
+        :created_at: Sun Nov 04 07:24:17 +0000 2012
+        :favourites_count: 2
+        :utc_offset: -18000
+        :time_zone: Eastern Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 29
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: 1A1B1F
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme9/bg.gif
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme9/bg.gif
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3250642034/2010063a7f3eb6bf9ac93ca71193e26b_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3250642034/2010063a7f3eb6bf9ac93ca71193e26b_normal.jpeg
+        :profile_link_color: 2FC2EF
+        :profile_sidebar_border_color: 181A1E
+        :profile_sidebar_fill_color: '252429'
+        :profile_text_color: '666666'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: horny
+          :indices:
+          - 17
+          - 23
+        - :text: teambigdick
+          :indices:
+          - 25
+          - 37
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:10:36 +0000 2013
+      :id: 352504665734250496
+      :id_str: '352504665734250496'
+      :text: ! 'Me now
+
+        #horny #BigDick #cock #masturbating http://t.co/Ahm3jLyYnK'
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+        for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 718795531
+        :id_str: '718795531'
+        :name: dick4free
+        :screen_name: Sara_ALS24
+        :location: ''
+        :description: ''
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 18
+        :friends_count: 123
+        :listed_count: 0
+        :created_at: Thu Jul 26 21:24:25 +0000 2012
+        :favourites_count: 0
+        :utc_offset: 10800
+        :time_zone: Kuwait
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 5
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000083081580/9fa7d84fcab5e88b44a113d2f188afd9_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000083081580/9fa7d84fcab5e88b44a113d2f188afd9_normal.jpeg
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: horny
+          :indices:
+          - 7
+          - 13
+        - :text: BigDick
+          :indices:
+          - 14
+          - 22
+        - :text: cock
+          :indices:
+          - 23
+          - 28
+        - :text: masturbating
+          :indices:
+          - 29
+          - 42
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+        :media:
+        - :id: 352504665738444801
+          :id_str: '352504665738444801'
+          :indices:
+          - 43
+          - 65
+          :media_url: http://pbs.twimg.com/media/BORZIDcCAAEL8dB.jpg
+          :media_url_https: https://pbs.twimg.com/media/BORZIDcCAAEL8dB.jpg
+          :url: http://t.co/Ahm3jLyYnK
+          :display_url: pic.twitter.com/Ahm3jLyYnK
+          :expanded_url: http://twitter.com/Sara_ALS24/status/352504665734250496/photo/1
+          :type: photo
+          :sizes:
+            :small:
+              :w: 340
+              :h: 455
+              :resize: fit
+            :thumb:
+              :w: 150
+              :h: 150
+              :resize: crop
+            :large:
+              :w: 717
+              :h: 960
+              :resize: fit
+            :medium:
+              :w: 600
+              :h: 803
+              :resize: fit
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:08:29 +0000 2013
+      :id: 352504135972696066
+      :id_str: '352504135972696066'
+      :text: ! 'Naked and all alone! #cock #nude #horny'
+      :source: <a href="http://blackberry.com/twitter" rel="nofollow">Twitter for
+        BlackBerry®</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 1561326607
+        :id_str: '1561326607'
+        :name: James bartlett
+        :screen_name: Jamit80
+        :location: Plymuff
+        :description: A bi-curious lad looking for fun, 18+, all pics are of me, execpt
+          what's retweeted. Pm or Skype me.
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 22
+        :friends_count: 65
+        :listed_count: 0
+        :created_at: Mon Jul 01 19:31:32 +0000 2013
+        :favourites_count: 1
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 21
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000074292086/a6925da42b7f6b5f970f21182a5a6241_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000074292086/a6925da42b7f6b5f970f21182a5a6241_normal.jpeg
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: cock
+          :indices:
+          - 21
+          - 26
+        - :text: nude
+          :indices:
+          - 27
+          - 32
+        - :text: horny
+          :indices:
+          - 33
+          - 39
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:08:22 +0000 2013
+      :id: 352504104955813889
+      :id_str: '352504104955813889'
+      :text: ! '@donahue947 when Jane and Dan are away little donbon shall play #horny
+        #magical'
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+        for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 541223444
+      :in_reply_to_user_id_str: '541223444'
+      :in_reply_to_screen_name: donahue947
+      :user:
+        :id: 391106763
+        :id_str: '391106763'
+        :name: Christian Smith
+        :screen_name: Cpsmitty17
+        :location: ''
+        :description: saucin' pucks and throwin' knucks..
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 282
+        :friends_count: 214
+        :listed_count: 0
+        :created_at: Sat Oct 15 02:07:00 +0000 2011
+        :favourites_count: 2048
+        :utc_offset: -32400
+        :time_zone: Alaska
+        :geo_enabled: true
+        :verified: false
+        :statuses_count: 2927
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: FF6699
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme11/bg.gif
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme11/bg.gif
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/3649959318/6daa3ddc5742211f9c0c3b6c0c3a4710_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3649959318/6daa3ddc5742211f9c0c3b6c0c3a4710_normal.jpeg
+        :profile_link_color: B40B43
+        :profile_sidebar_border_color: CC3366
+        :profile_sidebar_fill_color: E5507E
+        :profile_text_color: '362720'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: horny
+          :indices:
+          - 64
+          - 70
+        - :text: magical
+          :indices:
+          - 71
+          - 79
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: donahue947
+          :name: Jake Donahue
+          :id: 541223444
+          :id_str: '541223444'
+          :indices:
+          - 0
+          - 11
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:07:25 +0000 2013
+      :id: 352503864085331969
+      :id_str: '352503864085331969'
+      :text: ! '@naughtychink you get some D last night babe? #horny ;) xxxx'
+      :source: web
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 1469981312
+      :in_reply_to_user_id_str: '1469981312'
+      :in_reply_to_screen_name: naughtychink
+      :user:
+        :id: 494125328
+        :id_str: '494125328'
+        :name: Joe Biggs
+        :screen_name: hornyNIguy
+        :location: ''
+        :description: ! 'Secrety profile of horny guy that doesn''t wanna get caught!
+          Love to roleplay and open to roles #roleplay also #alwayshorny ;) xxxx Avi
+          is me!!'
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 592
+        :friends_count: 1996
+        :listed_count: 0
+        :created_at: Thu Feb 16 15:10:02 +0000 2012
+        :favourites_count: 2035
+        :utc_offset: 0
+        :time_zone: London
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 7
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3561654338/686a1f767b2cecffec5f3dbe73eaecd7_normal.png
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3561654338/686a1f767b2cecffec5f3dbe73eaecd7_normal.png
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: horny
+          :indices:
+          - 46
+          - 52
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: naughtychink
+          :name: come and get me ;)
+          :id: 1469981312
+          :id_str: '1469981312'
+          :indices:
+          - 0
+          - 13
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:05:50 +0000 2013
+      :id: 352503468113674241
+      :id_str: '352503468113674241'
+      :text: ! 'Feeling #horny, can I spit on you, and #lick you'
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+        for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 1513462640
+        :id_str: '1513462640'
+        :name: shaun
+        :screen_name: carpingnutter
+        :location: ! 'south coast, uk '
+        :description: Hi what you see is what you get, adore my fishing, love my motorbikes,like
+          a good drink and a good laugh
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 15
+        :friends_count: 132
+        :listed_count: 0
+        :created_at: Thu Jun 13 13:50:33 +0000 2013
+        :favourites_count: 91
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 270
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000073733812/326a65b736690603b3801fa271072602_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000073733812/326a65b736690603b3801fa271072602_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/1513462640/1371160059
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: horny
+          :indices:
+          - 8
+          - 14
+        - :text: lick
+          :indices:
+          - 39
+          - 44
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:03:12 +0000 2013
+      :id: 352502805136801792
+      :id_str: '352502805136801792'
+      :text: ! '#Playful #horny #lesbians #Girls #hotbody • #hot #sexy • - http://t.co/GdqDDYdGkG
+        . If you Like it, Share it!  http://t.co/0vSjWob5ja'
+      :source: <a href="http://winthecustomer.com/" rel="nofollow">Win the Customer</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 43470266
+        :id_str: '43470266'
+        :name: ! '2HORNY247.com |18+ '
+        :screen_name: 2horny247
+        :location: ! 'america '
+        :description: ! '#Sexy and #Horny Girls Everyday! | Photo Gallery | 18+ year
+          only  @hornywildcom @girlsgethorny Pics That Make You Feel Good!'
+        :url: http://t.co/xf9X0gbCsz
+        :entities:
+          :url:
+            :urls:
+            - :url: http://t.co/xf9X0gbCsz
+              :expanded_url: http://2HORNY247.com
+              :display_url: 2HORNY247.com
+              :indices:
+              - 0
+              - 22
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 39829
+        :friends_count: 4848
+        :listed_count: 291
+        :created_at: Sat May 30 03:17:15 +0000 2009
+        :favourites_count: 284
+        :utc_offset: -18000
+        :time_zone: Eastern Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 38293
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: FD2C7F
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/838025180/41d42db0a3f3d8b9090cd800c3e1a994.png
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/838025180/41d42db0a3f3d8b9090cd800c3e1a994.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3474229713/4640e98fa70ec89b11476b9e168eabaa_normal.png
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3474229713/4640e98fa70ec89b11476b9e168eabaa_normal.png
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/43470266/1365494279
+        :profile_link_color: '333333'
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: FE2C80
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: Playful
+          :indices:
+          - 0
+          - 8
+        - :text: horny
+          :indices:
+          - 9
+          - 15
+        - :text: lesbians
+          :indices:
+          - 16
+          - 25
+        - :text: Girls
+          :indices:
+          - 26
+          - 32
+        - :text: hotbody
+          :indices:
+          - 33
+          - 41
+        - :text: hot
+          :indices:
+          - 44
+          - 48
+        - :text: sexy
+          :indices:
+          - 49
+          - 54
+        :symbols: []
+        :urls:
+        - :url: http://t.co/GdqDDYdGkG
+          :expanded_url: http://2HORNY247.COM
+          :display_url: 2HORNY247.COM
+          :indices:
+          - 59
+          - 81
+        - :url: http://t.co/0vSjWob5ja
+          :expanded_url: http://bit.ly/12Jre2w
+          :display_url: bit.ly/12Jre2w
+          :indices:
+          - 111
+          - 133
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: true
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:02:00 +0000 2013
+      :id: 352502504401010688
+      :id_str: '352502504401010688'
+      :text: ! '"@HornyFacts: Not having enough sex puts you at risk of anxiety, paranoia
+        and depression." found out why Im so down recently... :s #horny'
+      :source: <a href="https://mobile.twitter.com" rel="nofollow">Mobile Web (M5)</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 1405130648
+        :id_str: '1405130648'
+        :name: Shannon Louise
+        :screen_name: spawnofmilf
+        :location: Peterborough
+        :description: Love my friends and family. I'm just trying to be happy :) 3
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 9
+        :friends_count: 39
+        :listed_count: 0
+        :created_at: Sun May 05 13:53:50 +0000 2013
+        :favourites_count: 0
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 141
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/sticky/default_profile_images/default_profile_5_normal.png
+        :profile_image_url_https: https://si0.twimg.com/sticky/default_profile_images/default_profile_5_normal.png
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: true
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: horny
+          :indices:
+          - 131
+          - 137
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: HornyFacts
+          :name: Horny Facts™
+          :id: 561684253
+          :id_str: '561684253'
+          :indices:
+          - 1
+          - 12
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:01:47 +0000 2013
+      :id: 352502446288936961
+      :id_str: '352502446288936961'
+      :text: ! '#horny'
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+        for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 270016167
+        :id_str: '270016167'
+        :name: Viktor Schaper
+        :screen_name: ItsPekka
+        :location: ''
+        :description: Pro lolgamer, well, atleast thats my dream.
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 11
+        :friends_count: 110
+        :listed_count: 0
+        :created_at: Mon Mar 21 21:15:45 +0000 2011
+        :favourites_count: 48
+        :utc_offset: 3600
+        :time_zone: Stockholm
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 272
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/378800000024465960/8a351639654ace96cfe6fa2d36e3bb4c_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/378800000024465960/8a351639654ace96cfe6fa2d36e3bb4c_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/270016167/1360524466
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: horny
+          :indices:
+          - 0
+          - 6
+        :symbols: []
+        :urls: []
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:01:15 +0000 2013
+      :id: 352502312121532416
+      :id_str: '352502312121532416'
+      :text: ! '@RachaelEgan16 I want to shift you to feel that amazing ass of yours
+        #ghetto booty #horny'
+      :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+        for iPhone</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 870275672
+      :in_reply_to_user_id_str: '870275672'
+      :in_reply_to_screen_name: RachaelEgan16
+      :user:
+        :id: 553461727
+        :id_str: '553461727'
+        :name: Eoghan Browne
+        :screen_name: Browne_Bear96
+        :location: ''
+        :description: ! '@jimmycarr stole my laugh'
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 244
+        :friends_count: 231
+        :listed_count: 0
+        :created_at: Sat Apr 14 11:34:17 +0000 2012
+        :favourites_count: 226
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 1653
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: 642D8B
+        :profile_background_image_url: http://a0.twimg.com/profile_background_images/864214928/322b26071adbf2be168382840f6b1ccf.jpeg
+        :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/864214928/322b26071adbf2be168382840f6b1ccf.jpeg
+        :profile_background_tile: true
+        :profile_image_url: http://a0.twimg.com/profile_images/3434482962/2a2ce31cf84cd570917d8db63b60bbaf_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3434482962/2a2ce31cf84cd570917d8db63b60bbaf_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/553461727/1362086544
+        :profile_link_color: FF0000
+        :profile_sidebar_border_color: FFFFFF
+        :profile_sidebar_fill_color: 7AC3EE
+        :profile_text_color: 3D1957
+        :profile_use_background_image: true
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: ghetto
+          :indices:
+          - 69
+          - 76
+        - :text: horny
+          :indices:
+          - 83
+          - 89
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: RachaelEgan16
+          :name: Rachael Egan
+          :id: 870275672
+          :id_str: '870275672'
+          :indices:
+          - 0
+          - 14
+      :favorited: false
+      :retweeted: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 19:00:28 +0000 2013
+      :id: 352502116809576448
+      :id_str: '352502116809576448'
+      :text: ! '#bored and #horny so ask me any question you want ladies ;) http://t.co/O9nOusQuFO
+        #horny xxxx'
+      :source: <a href="http://twitter.com/tweetbutton" rel="nofollow">Tweet Button</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 494125328
+        :id_str: '494125328'
+        :name: Joe Biggs
+        :screen_name: hornyNIguy
+        :location: ''
+        :description: ! 'Secrety profile of horny guy that doesn''t wanna get caught!
+          Love to roleplay and open to roles #roleplay also #alwayshorny ;) xxxx Avi
+          is me!!'
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 592
+        :friends_count: 1996
+        :listed_count: 0
+        :created_at: Thu Feb 16 15:10:02 +0000 2012
+        :favourites_count: 2035
+        :utc_offset: 0
+        :time_zone: London
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 7
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3561654338/686a1f767b2cecffec5f3dbe73eaecd7_normal.png
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3561654338/686a1f767b2cecffec5f3dbe73eaecd7_normal.png
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: bored
+          :indices:
+          - 0
+          - 6
+        - :text: horny
+          :indices:
+          - 11
+          - 17
+        - :text: horny
+          :indices:
+          - 83
+          - 89
+        :symbols: []
+        :urls:
+        - :url: http://t.co/O9nOusQuFO
+          :expanded_url: http://ask.fm/hornyNIguy
+          :display_url: ask.fm/hornyNIguy
+          :indices:
+          - 60
+          - 82
+        :user_mentions: []
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: en
+  - !ruby/object:Twitter::Tweet
+    attrs:
+      :metadata:
+        :result_type: recent
+        :iso_language_code: en
+      :created_at: Wed Jul 03 18:59:48 +0000 2013
+      :id: 352501947674271744
+      :id_str: '352501947674271744'
+      :text: ! 'Omg the want I have for my girl right now.. I wish I wasn''t at dancing
+        omg jesus christ @girlove_ #horny #sexy #mmm'
+      :source: <a href="http://blackberry.com/twitter" rel="nofollow">Twitter for
+        BlackBerry®</a>
+      :truncated: false
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 1217800662
+        :id_str: '1217800662'
+        :name: Loveislove_
+        :screen_name: Lloveislove_
+        :location: ''
+        :description: Lesbian. Dance. Taken.                      ♥@girlove_
+        :url: 
+        :entities:
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 1015
+        :friends_count: 1303
+        :listed_count: 0
+        :created_at: Mon Feb 25 10:03:13 +0000 2013
+        :favourites_count: 229
+        :utc_offset: 
+        :time_zone: 
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 2103
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :profile_background_color: C0DEED
+        :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://a0.twimg.com/profile_images/3305850079/b8f1a7b645e246ece412900d452d08d9_normal.jpeg
+        :profile_image_url_https: https://si0.twimg.com/profile_images/3305850079/b8f1a7b645e246ece412900d452d08d9_normal.jpeg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/1217800662/1369209012
+        :profile_link_color: 0084B4
+        :profile_sidebar_border_color: C0DEED
+        :profile_sidebar_fill_color: DDEEF6
+        :profile_text_color: '333333'
+        :profile_use_background_image: true
+        :default_profile: true
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :retweet_count: 0
+      :favorite_count: 0
+      :entities:
+        :hashtags:
+        - :text: horny
+          :indices:
+          - 98
+          - 104
+        - :text: sexy
+          :indices:
+          - 105
+          - 110
+        - :text: mmm
+          :indices:
+          - 111
+          - 115
+        :symbols: []
+        :urls: []
+        :user_mentions:
+        - :screen_name: girlove_
+          :name: girl love
+          :id: 1216688832
+          :id_str: '1216688832'
+          :indices:
+          - 88
+          - 97
+      :favorited: false
+      :retweeted: false
+      :lang: en
