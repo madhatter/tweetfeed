@@ -1,0 +1,1423 @@
+---
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Thu Jul 04 14:42:31 +0000 2013
+    :id: 352799591210565633
+    :id_str: '352799591210565633'
+    :text: ! '#rubyonrails #parisrb Teaching #RoR and #TDD at once, Using #Rspec|#Capybara
+      as the exercices subjects &amp; correction engine. Works great ! &lt;3'
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 142002517
+      :id_str: '142002517'
+      :name: lta
+      :screen_name: find_lta
+      :location: around paris
+      :description: Ruby, C and Hosting freelancer - Teacher @ Sup'Internet and others
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 87
+      :friends_count: 93
+      :listed_count: 1
+      :created_at: Sun May 09 17:13:07 +0000 2010
+      :favourites_count: 19
+      :utc_offset: 3600
+      :time_zone: Paris
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 186
+      :lang: fr
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: '022330'
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme15/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme15/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/2751408801/d0d6d91a6a64ac821fc30a50ea99501d_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2751408801/d0d6d91a6a64ac821fc30a50ea99501d_normal.png
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: A8C7F7
+      :profile_sidebar_fill_color: C0DFEC
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 1
+    :entities:
+      :hashtags:
+      - :text: rubyonrails
+        :indices:
+        - 0
+        - 12
+      - :text: parisrb
+        :indices:
+        - 13
+        - 21
+      - :text: RoR
+        :indices:
+        - 31
+        - 35
+      - :text: TDD
+        :indices:
+        - 40
+        - 44
+      - :text: Rspec
+        :indices:
+        - 60
+        - 66
+      - :text: Capybara
+        :indices:
+        - 67
+        - 76
+      :symbols: []
+      :urls: []
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Thu Jul 04 01:16:56 +0000 2013
+    :id: 352596859749015552
+    :id_str: '352596859749015552'
+    :text: ! 'Anybody have tips for writing nice, clean, controller tests with #RSpec?'
+    :source: <a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter
+      for Mac</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 430986341
+      :id_str: '430986341'
+      :name: Erik Allar
+      :screen_name: allareri
+      :location: ''
+      :description: ''
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 47
+      :friends_count: 184
+      :listed_count: 1
+      :created_at: Wed Dec 07 19:54:20 +0000 2011
+      :favourites_count: 8
+      :utc_offset: -18000
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 140
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/2406442089/b71d43q9mt4mje9ebv6c_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2406442089/b71d43q9mt4mje9ebv6c_normal.jpeg
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 0
+    :entities:
+      :hashtags:
+      - :text: RSpec
+        :indices:
+        - 65
+        - 71
+      :symbols: []
+      :urls: []
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Wed Jul 03 22:45:57 +0000 2013
+    :id: 352558861133160449
+    :id_str: '352558861133160449'
+    :text: ! 'The brand new Genesis Coupe R Spec. #genesiscoupe #rspec #hyundai #gorgeous
+      @ Focus Hyundai http://t.co/3w780983iE'
+    :source: <a href="http://instagram.com" rel="nofollow">Instagram</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 110882103
+      :id_str: '110882103'
+      :name: PJ Carey
+      :screen_name: pjcarey75
+      :location: canada
+      :description: college student, cooks creek, 1993
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 76
+      :friends_count: 201
+      :listed_count: 1
+      :created_at: Wed Feb 03 02:34:48 +0000 2010
+      :favourites_count: 81
+      :utc_offset: -25200
+      :time_zone: Mountain Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 681
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: '131516'
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/357268919/222339_10150255091337565_658687564_8992878_3729532_n.jpg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/357268919/222339_10150255091337565_658687564_8992878_3729532_n.jpg
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/1619437693/260509_10150303281517565_658687564_9383567_697335_n_normal.jpg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/1619437693/260509_10150303281517565_658687564_9383567_697335_n_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/110882103/1353522894
+      :profile_link_color: '000756'
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: '349247'
+      :profile_text_color: '131516'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo:
+      :type: Point
+      :coordinates:
+      - 49.89976289
+      - -97.07915559
+    :coordinates:
+      :type: Point
+      :coordinates:
+      - -97.07915559
+      - 49.89976289
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 0
+    :entities:
+      :hashtags:
+      - :text: genesiscoupe
+        :indices:
+        - 36
+        - 49
+      - :text: rspec
+        :indices:
+        - 50
+        - 56
+      - :text: hyundai
+        :indices:
+        - 57
+        - 65
+      - :text: gorgeous
+        :indices:
+        - 66
+        - 75
+      :symbols: []
+      :urls:
+      - :url: http://t.co/3w780983iE
+        :expanded_url: http://instagram.com/p/bUjEZpBN5F/
+        :display_url: instagram.com/p/bUjEZpBN5F/
+        :indices:
+        - 92
+        - 114
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Wed Jul 03 17:16:12 +0000 2013
+    :id: 352475877940015106
+    :id_str: '352475877940015106'
+    :text: ! '#rspec helper to add find_or_create to #factory_girl http://t.co/xlCo4LjcXD'
+    :source: <a href="http://www.tumblr.com/" rel="nofollow">Tumblr</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 731678900
+      :id_str: '731678900'
+      :name: Michael Guymon
+      :screen_name: tobedevoured
+      :location: RI
+      :description: ''
+      :url: http://t.co/zPhJMAn5vo
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/zPhJMAn5vo
+            :expanded_url: http://blog.tobedevoured.com/
+            :display_url: blog.tobedevoured.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 20
+      :friends_count: 39
+      :listed_count: 0
+      :created_at: Wed Aug 01 23:23:29 +0000 2012
+      :favourites_count: 5
+      :utc_offset: -14400
+      :time_zone: Atlantic Time (Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 139
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/2457062533/jxuwwl1uxim2wqj1oafd_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2457062533/jxuwwl1uxim2wqj1oafd_normal.jpeg
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: C0DEED
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: true
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 0
+    :entities:
+      :hashtags:
+      - :text: rspec
+        :indices:
+        - 0
+        - 6
+      - :text: factory_girl
+        :indices:
+        - 39
+        - 52
+      :symbols: []
+      :urls:
+      - :url: http://t.co/xlCo4LjcXD
+        :expanded_url: http://tmblr.co/Ztqeayonq-fg
+        :display_url: tmblr.co/Ztqeayonq-fg
+        :indices:
+        - 53
+        - 75
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Wed Jul 03 14:26:07 +0000 2013
+    :id: 352433075080269824
+    :id_str: '352433075080269824'
+    :text: ! '@derekprior thanks! was able to get my specs up to snuff again. #rspec
+      #factory_girl @thoughtbot #ruby #rails'
+    :source: <a href="http://www.echofon.com/" rel="nofollow">Echofon</a>
+    :truncated: false
+    :in_reply_to_status_id: 352250590820171778
+    :in_reply_to_status_id_str: '352250590820171778'
+    :in_reply_to_user_id: 1658511
+    :in_reply_to_user_id_str: '1658511'
+    :in_reply_to_screen_name: derekprior
+    :user:
+      :id: 558114694
+      :id_str: '558114694'
+      :name: Denis Haskin
+      :screen_name: ConstantOrbit
+      :location: Boston, MA
+      :description: Software dev, consulting, open source, transportation, transit.
+        Mostly Rails & Ruby, but others.  And frequent non-tech tweets as well. Sorry.
+      :url: http://t.co/EDDkC4Aios
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/EDDkC4Aios
+            :expanded_url: http://constantorbit.com
+            :display_url: constantorbit.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39
+      :friends_count: 293
+      :listed_count: 0
+      :created_at: Thu Apr 19 22:29:49 +0000 2012
+      :favourites_count: 80
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 545
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/851760674/65c7e6edea7f69faefb4b133bf887d6c.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/851760674/65c7e6edea7f69faefb4b133bf887d6c.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3770055254/e59298cd7db9009b8fdb13def839abf1_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3770055254/e59298cd7db9009b8fdb13def839abf1_normal.jpeg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/558114694/1366857390
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 1
+    :entities:
+      :hashtags:
+      - :text: rspec
+        :indices:
+        - 64
+        - 70
+      - :text: factory_girl
+        :indices:
+        - 71
+        - 84
+      - :text: ruby
+        :indices:
+        - 97
+        - 102
+      - :text: rails
+        :indices:
+        - 103
+        - 109
+      :symbols: []
+      :urls: []
+      :user_mentions:
+      - :screen_name: derekprior
+        :name: Derek Prior
+        :id: 1658511
+        :id_str: '1658511'
+        :indices:
+        - 0
+        - 11
+      - :screen_name: thoughtbot
+        :name: thoughtbot
+        :id: 14114392
+        :id_str: '14114392'
+        :indices:
+        - 85
+        - 96
+    :favorited: false
+    :retweeted: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Wed Jul 03 13:33:26 +0000 2013
+    :id: 352419814649765888
+    :id_str: '352419814649765888'
+    :text: ! 'Some really good rspec tips here: http://t.co/qJykI4ATVI #rspec'
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 17601064
+      :id_str: '17601064'
+      :name: Toby Osbourn
+      :screen_name: tosbourn
+      :location: Belfast
+      :description: I enjoy breaking (and then rebuilding) the web. Ruby, PHP, JavaScript,
+        HTML, CSS
+      :url: http://t.co/zDIdkycrg1
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/zDIdkycrg1
+            :expanded_url: http://www.tosbourn.com
+            :display_url: tosbourn.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 945
+      :friends_count: 431
+      :listed_count: 28
+      :created_at: Mon Nov 24 21:01:40 +0000 2008
+      :favourites_count: 80
+      :utc_offset: 0
+      :time_zone: London
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 10485
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: '131516'
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme14/bg.gif
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme14/bg.gif
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/2168096713/toby_osbourn_new_normal.jpg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2168096713/toby_osbourn_new_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/17601064/1363725974
+      :profile_link_color: 009999
+      :profile_sidebar_border_color: EEEEEE
+      :profile_sidebar_fill_color: EFEFEF
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 0
+    :entities:
+      :hashtags:
+      - :text: rspec
+        :indices:
+        - 57
+        - 63
+      :symbols: []
+      :urls:
+      - :url: http://t.co/qJykI4ATVI
+        :expanded_url: http://bitfluxx.com/2011/05/23/some-rspec-tips-and-best-practices.html
+        :display_url: bitfluxx.com/2011/05/23/som…
+        :indices:
+        - 34
+        - 56
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Wed Jul 03 01:30:46 +0000 2013
+    :id: 352237951901634560
+    :id_str: '352237951901634560'
+    :text: ! '"81 examples, 0 failures, 2 pending" #goodenough &amp; yes, it made
+      sense to delete some tests, and to leave those 2 pending #ruby #rails #rspec'
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 558114694
+      :id_str: '558114694'
+      :name: Denis Haskin
+      :screen_name: ConstantOrbit
+      :location: Boston, MA
+      :description: Software dev, consulting, open source, transportation, transit.
+        Mostly Rails & Ruby, but others.  And frequent non-tech tweets as well. Sorry.
+      :url: http://t.co/EDDkC4Aios
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/EDDkC4Aios
+            :expanded_url: http://constantorbit.com
+            :display_url: constantorbit.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39
+      :friends_count: 293
+      :listed_count: 0
+      :created_at: Thu Apr 19 22:29:49 +0000 2012
+      :favourites_count: 80
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 545
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/851760674/65c7e6edea7f69faefb4b133bf887d6c.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/851760674/65c7e6edea7f69faefb4b133bf887d6c.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3770055254/e59298cd7db9009b8fdb13def839abf1_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3770055254/e59298cd7db9009b8fdb13def839abf1_normal.jpeg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/558114694/1366857390
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 2
+    :entities:
+      :hashtags:
+      - :text: goodenough
+        :indices:
+        - 37
+        - 48
+      - :text: ruby
+        :indices:
+        - 125
+        - 130
+      - :text: rails
+        :indices:
+        - 131
+        - 137
+      - :text: rspec
+        :indices:
+        - 138
+        - 144
+      :symbols: []
+      :urls: []
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Wed Jul 03 00:24:31 +0000 2013
+    :id: 352221280667312128
+    :id_str: '352221280667312128'
+    :text: ! '"83 examples, 19 failures, 2 pending" #rails #ruby #rspec #closer'
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 558114694
+      :id_str: '558114694'
+      :name: Denis Haskin
+      :screen_name: ConstantOrbit
+      :location: Boston, MA
+      :description: Software dev, consulting, open source, transportation, transit.
+        Mostly Rails & Ruby, but others.  And frequent non-tech tweets as well. Sorry.
+      :url: http://t.co/EDDkC4Aios
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/EDDkC4Aios
+            :expanded_url: http://constantorbit.com
+            :display_url: constantorbit.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39
+      :friends_count: 293
+      :listed_count: 0
+      :created_at: Thu Apr 19 22:29:49 +0000 2012
+      :favourites_count: 80
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 545
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/851760674/65c7e6edea7f69faefb4b133bf887d6c.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/851760674/65c7e6edea7f69faefb4b133bf887d6c.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3770055254/e59298cd7db9009b8fdb13def839abf1_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3770055254/e59298cd7db9009b8fdb13def839abf1_normal.jpeg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/558114694/1366857390
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 1
+    :entities:
+      :hashtags:
+      - :text: rails
+        :indices:
+        - 38
+        - 44
+      - :text: ruby
+        :indices:
+        - 45
+        - 50
+      - :text: rspec
+        :indices:
+        - 51
+        - 57
+      - :text: closer
+        :indices:
+        - 58
+        - 65
+      :symbols: []
+      :urls: []
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Tue Jul 02 23:50:49 +0000 2013
+    :id: 352212796785700865
+    :id_str: '352212796785700865'
+    :text: ! 'have let #rspec tests languish. "83 examples, 61 failures, 2 pending"
+      #ifeelsoashamed #ruby #rails'
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 558114694
+      :id_str: '558114694'
+      :name: Denis Haskin
+      :screen_name: ConstantOrbit
+      :location: Boston, MA
+      :description: Software dev, consulting, open source, transportation, transit.
+        Mostly Rails & Ruby, but others.  And frequent non-tech tweets as well. Sorry.
+      :url: http://t.co/EDDkC4Aios
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/EDDkC4Aios
+            :expanded_url: http://constantorbit.com
+            :display_url: constantorbit.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39
+      :friends_count: 293
+      :listed_count: 0
+      :created_at: Thu Apr 19 22:29:49 +0000 2012
+      :favourites_count: 80
+      :utc_offset: 
+      :time_zone: 
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 545
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: C0DEED
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/851760674/65c7e6edea7f69faefb4b133bf887d6c.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/851760674/65c7e6edea7f69faefb4b133bf887d6c.jpeg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3770055254/e59298cd7db9009b8fdb13def839abf1_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3770055254/e59298cd7db9009b8fdb13def839abf1_normal.jpeg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/558114694/1366857390
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: DDEEF6
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 1
+    :entities:
+      :hashtags:
+      - :text: rspec
+        :indices:
+        - 9
+        - 15
+      - :text: ifeelsoashamed
+        :indices:
+        - 70
+        - 85
+      - :text: ruby
+        :indices:
+        - 86
+        - 91
+      - :text: rails
+        :indices:
+        - 92
+        - 98
+      :symbols: []
+      :urls: []
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Tue Jul 02 22:31:54 +0000 2013
+    :id: 352192936546537472
+    :id_str: '352192936546537472'
+    :text: ! 'Discovered #rspec #routing specs tonight. Nice.'
+    :source: <a href="http://itunes.apple.com/us/app/twitter/id409789998?mt=12" rel="nofollow">Twitter
+      for Mac</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 4203211
+      :id_str: '4203211'
+      :name: Ivor Paul
+      :screen_name: Apie
+      :location: Cape Town
+      :description: I try to get out and about as much as I can when I am not hacking
+        away at a ruby on rails project.
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 495
+      :friends_count: 293
+      :listed_count: 20
+      :created_at: Wed Apr 11 16:15:02 +0000 2007
+      :favourites_count: 62
+      :utc_offset: 7200
+      :time_zone: Pretoria
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 10225
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: '000000'
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/19309623/img_0007.jpg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/19309623/img_0007.jpg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3334053238/c0f74e93acddd4f95cff851f8015e2dc_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3334053238/c0f74e93acddd4f95cff851f8015e2dc_normal.jpeg
+      :profile_link_color: 07498A
+      :profile_sidebar_border_color: 0F0F0E
+      :profile_sidebar_fill_color: DBDBDB
+      :profile_text_color: '696969'
+      :profile_use_background_image: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 0
+    :entities:
+      :hashtags:
+      - :text: rspec
+        :indices:
+        - 11
+        - 17
+      - :text: routing
+        :indices:
+        - 18
+        - 26
+      :symbols: []
+      :urls: []
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Tue Jul 02 15:01:58 +0000 2013
+    :id: 352079708709584896
+    :id_str: '352079708709584896'
+    :text: ! '@TheOtherZach @searls @bryanschoeff #rspec-given is awesome. I especially
+      like the look + the output I get with natural assertions turned on'
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 352077455676276736
+    :in_reply_to_status_id_str: '352077455676276736'
+    :in_reply_to_user_id: 29200620
+    :in_reply_to_user_id_str: '29200620'
+    :in_reply_to_screen_name: TheOtherZach
+    :user:
+      :id: 14912665
+      :id_str: '14912665'
+      :name: Paul Henrich
+      :screen_name: p9k
+      :location: Cincinnati, Ohio
+      :description: ! 'I solve problems by writing software when necessary. Primarily
+        in ruby. Email welcome: paul@henrich.me'
+      :url: 
+      :entities:
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 850
+      :friends_count: 624
+      :listed_count: 51
+      :created_at: Mon May 26 20:03:58 +0000 2008
+      :favourites_count: 5180
+      :utc_offset: -18000
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 6088
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/391181589/twitter-bg-email-white.png
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/391181589/twitter-bg-email-white.png
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/3380014241/4f172cda5bff6905a801cc43ce352c33_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3380014241/4f172cda5bff6905a801cc43ce352c33_normal.png
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/14912665/1354163571
+      :profile_link_color: 0084B4
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: FFFFFF
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 1
+    :entities:
+      :hashtags:
+      - :text: rspec
+        :indices:
+        - 36
+        - 42
+      :symbols: []
+      :urls: []
+      :user_mentions:
+      - :screen_name: TheOtherZach
+        :name: TheOtherZach
+        :id: 29200620
+        :id_str: '29200620'
+        :indices:
+        - 0
+        - 13
+      - :screen_name: searls
+        :name: Justin Searls
+        :id: 9038902
+        :id_str: '9038902'
+        :indices:
+        - 14
+        - 21
+      - :screen_name: bryanschoeff
+        :name: Bryan Schoeff
+        :id: 44926265
+        :id_str: '44926265'
+        :indices:
+        - 22
+        - 35
+    :favorited: false
+    :retweeted: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: ja
+    :created_at: Tue Jul 02 12:46:13 +0000 2013
+    :id: 352045547231772672
+    :id_str: '352045547231772672'
+    :text: ! 'should使わないなら使わないでexpectで全部通したいんだけど、`expect_it.to be true`とか`expect_its(:size).to
+      eq 3`ってなんで書けないのー？ みんなそう思わないのかな。 #rspec'
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 3516311
+      :id_str: '3516311'
+      :name: 斎藤ただし, Tadashi Saito
+      :screen_name: _tad_
+      :location: 東京
+      :description: プログラミング + びよら + 陸上 = デザインされた俺。しゃかいじん3ねんせい突入、俺ってばすげー (＞Θ＜)
+      :url: http://t.co/NbOb9g3DHh
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/NbOb9g3DHh
+            :expanded_url: http://d.hatena.ne.jp/tad0/
+            :display_url: d.hatena.ne.jp/tad0/
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 2977
+      :friends_count: 555
+      :listed_count: 182
+      :created_at: Thu Apr 05 12:57:45 +0000 2007
+      :favourites_count: 3687
+      :utc_offset: 32400
+      :time_zone: Tokyo
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 51596
+      :lang: ja
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: 618CE1
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/890162/sky17.jpg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/890162/sky17.jpg
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/378800000011374052/00295c62f5ee41521b1303626c234179_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/378800000011374052/00295c62f5ee41521b1303626c234179_normal.png
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/3516311/1353998531
+      :profile_link_color: 0000CB
+      :profile_sidebar_border_color: E1E1E1
+      :profile_sidebar_fill_color: F0F0F0
+      :profile_text_color: '000000'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 0
+    :entities:
+      :hashtags:
+      - :text: rspec
+        :indices:
+        - 113
+        - 119
+      :symbols: []
+      :urls: []
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :lang: ja
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Tue Jul 02 09:01:08 +0000 2013
+    :id: 351988903303065600
+    :id_str: '351988903303065600'
+    :text: ! 'Running #RSpec tests from your browser  http://t.co/Qn3c64wn83 #ruby
+      #rails'
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 82035190
+      :id_str: '82035190'
+      :name: Ricardo García Vega
+      :screen_name: bigardone
+      :location: Asturias, Spain
+      :description: ! 'I am a passionate freelance full-stack Rails developer, who
+        loves surfing before the sun rises.
+
+
+        @tonkalabs
+
+
+        @ScrumrfApp
+
+
+        @quiverhq'
+      :url: http://t.co/veZSzgzV
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/veZSzgzV
+            :expanded_url: http://codeloveandboards.com
+            :display_url: codeloveandboards.com
+            :indices:
+            - 0
+            - 20
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 238
+      :friends_count: 269
+      :listed_count: 10
+      :created_at: Tue Oct 13 07:16:00 +0000 2009
+      :favourites_count: 79
+      :utc_offset: 3600
+      :time_zone: Madrid
+      :geo_enabled: true
+      :verified: false
+      :statuses_count: 2527
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: '131516'
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme14/bg.gif
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme14/bg.gif
+      :profile_background_tile: true
+      :profile_image_url: http://a0.twimg.com/profile_images/3519325396/c924bd65390206663a0a7d3d6b3a5a81_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/3519325396/c924bd65390206663a0a7d3d6b3a5a81_normal.jpeg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/82035190/1370930993
+      :profile_link_color: E88000
+      :profile_sidebar_border_color: EEEEEE
+      :profile_sidebar_fill_color: EFEFEF
+      :profile_text_color: '333333'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 2
+    :entities:
+      :hashtags:
+      - :text: RSpec
+        :indices:
+        - 8
+        - 14
+      - :text: ruby
+        :indices:
+        - 63
+        - 68
+      - :text: rails
+        :indices:
+        - 69
+        - 75
+      :symbols: []
+      :urls:
+      - :url: http://t.co/Qn3c64wn83
+        :expanded_url: http://bit.ly/12Br0rp
+        :display_url: bit.ly/12Br0rp
+        :indices:
+        - 40
+        - 62
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: ja
+    :created_at: Tue Jul 02 07:05:49 +0000 2013
+    :id: 351959881902866434
+    :id_str: '351959881902866434'
+    :text: ! 'もう shared context 無しでは生きられない。 #RSpec'
+    :source: <a href="http://tapbots.com/software/tweetbot/mac" rel="nofollow">Tweetbot
+      for Mac</a>
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 108946307
+      :id_str: '108946307'
+      :name: QUANON
+      :screen_name: quanon86
+      :location: 風見野
+      :description: (*´◡`*) 変色系男子でぇす♪ 躁鬱系プログラマ。佐倉杏子ちゃんは俺の嫁。ポケモン＆モンハン大好き！ Lia/riya/水樹奈々/ミスチル/BUMP/まどマギ/ハチクロ/刀語/北斗の拳/ジョジョ/キノの旅/SAO/橋本紡/乙一/ぷよぷよ/jubeat/SSF4/カレー/ラーメン/Ruby
+      :url: http://t.co/wanpzgReSS
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/wanpzgReSS
+            :expanded_url: http://www.hatena.ne.jp/quanon/
+            :display_url: hatena.ne.jp/quanon/
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 1478
+      :friends_count: 1453
+      :listed_count: 135
+      :created_at: Wed Jan 27 14:03:46 +0000 2010
+      :favourites_count: 822
+      :utc_offset: 32400
+      :time_zone: Tokyo
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 23167
+      :lang: ja
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: B2DFDA
+      :profile_background_image_url: http://a0.twimg.com/profile_background_images/847738414/0116a23abed51e3b262c8701d82566c8.jpeg
+      :profile_background_image_url_https: https://si0.twimg.com/profile_background_images/847738414/0116a23abed51e3b262c8701d82566c8.jpeg
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/378800000038912771/11804c67a05cbc6062095d7bbe4ff392_normal.png
+      :profile_image_url_https: https://si0.twimg.com/profile_images/378800000038912771/11804c67a05cbc6062095d7bbe4ff392_normal.png
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/108946307/1356500394
+      :profile_link_color: 93A644
+      :profile_sidebar_border_color: FFFFFF
+      :profile_sidebar_fill_color: 00305F
+      :profile_text_color: FFFFFF
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 0
+    :favorite_count: 0
+    :entities:
+      :hashtags:
+      - :text: RSpec
+        :indices:
+        - 30
+        - 36
+      :symbols: []
+      :urls: []
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :lang: ja
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :metadata:
+      :result_type: recent
+      :iso_language_code: en
+    :created_at: Tue Jul 02 06:51:47 +0000 2013
+    :id: 351956350173069312
+    :id_str: '351956350173069312'
+    :text: ! 'Just played around with https://t.co/uW8WspqVtd a bit. Cool stuff, definitely
+      gonna use. #puppet #rspec'
+    :source: web
+    :truncated: false
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 165344239
+      :id_str: '165344239'
+      :name: David Johansen
+      :screen_name: makewhatis
+      :location: San Francisco, CA
+      :description: Engineer @Twitter
+      :url: http://t.co/EbCkaxKBz9
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/EbCkaxKBz9
+            :expanded_url: http://makewhatis.com
+            :display_url: makewhatis.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 68
+      :friends_count: 271
+      :listed_count: 1
+      :created_at: Sun Jul 11 08:40:06 +0000 2010
+      :favourites_count: 54
+      :utc_offset: -28800
+      :time_zone: Pacific Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 492
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :profile_background_color: 1A1B1F
+      :profile_background_image_url: http://a0.twimg.com/images/themes/theme9/bg.gif
+      :profile_background_image_url_https: https://si0.twimg.com/images/themes/theme9/bg.gif
+      :profile_background_tile: false
+      :profile_image_url: http://a0.twimg.com/profile_images/2791619173/c08123013546ce6020323bd6b2aae92f_normal.jpeg
+      :profile_image_url_https: https://si0.twimg.com/profile_images/2791619173/c08123013546ce6020323bd6b2aae92f_normal.jpeg
+      :profile_link_color: 2FC2EF
+      :profile_sidebar_border_color: 181A1E
+      :profile_sidebar_fill_color: '252429'
+      :profile_text_color: '666666'
+      :profile_use_background_image: true
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweet_count: 1
+    :favorite_count: 0
+    :entities:
+      :hashtags:
+      - :text: puppet
+        :indices:
+        - 89
+        - 96
+      - :text: rspec
+        :indices:
+        - 97
+        - 103
+      :symbols: []
+      :urls:
+      - :url: https://t.co/uW8WspqVtd
+        :expanded_url: https://github.com/serverspec/serverspec
+        :display_url: github.com/serverspec/ser…
+        :indices:
+        - 24
+        - 47
+      :user_mentions: []
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en

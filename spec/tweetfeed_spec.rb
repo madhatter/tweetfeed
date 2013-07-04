@@ -9,10 +9,17 @@ describe Tweetfeed do
     @tweetfeed_conf = TweetfeedConfig.new logger
     config_file = File.join(Dir.pwd, 'spec', 'test_config.yml')
     @tweetfeed_conf.read config_file
-    @tweetfeed = Tweetfeed.new(@tweetfeed_conf)
 
     tweets_file = File.join(Dir.pwd, 'spec', 'tweets.yml')
     @tweets_array = YAML.load_file(tweets_file)
+
+    tweets_base_result_file = File.join(Dir.pwd, 'spec', 'tweets_single_result_base.yml')
+    @tweets_base_result = YAML.load_file(tweets_base_result_file)
+    tweets_result_file = File.join(Dir.pwd, 'spec', 'tweets_single_result.yml')
+    @tweets_result = YAML.load_file(tweets_result_file)
+
+    twitter = double(:twitter, :search => @tweets_base_result, :statuses => @tweets_result)
+    @tweetfeed = Tweetfeed.new(@tweetfeed_conf, twitter)
   end
 
   it "should have some configurations set" do
@@ -31,6 +38,18 @@ describe Tweetfeed do
     tf = @tweetfeed
     response = tf.calculate_last_id @tweets_array
     response.should == 352505432557879296
+  end
+
+  it "should store the last_id in instance" do
+    tf = @tweetfeed
+    tf.store_last_id tf.calculate_last_id @tweets_array
+    tf.last_id.should == 352505432557879296 
+  end
+
+  it "should search twitter" do
+    tf = @tweetfeed
+    result = tf.search "#rspec"
+    result.should_not == nil
   end
 end
 

@@ -5,7 +5,9 @@ require_relative '../lib/tweetfeed_config.rb'
 require_relative '../lib/tweetfeed_rss_generator.rb'
 
 class Tweetfeed
-  def initialize(config)
+  attr_accessor :last_id
+
+  def initialize(config, twitter = nil)
     @config = config
     @log_level = config.log_level
     @hashtags = config.hashtags
@@ -14,13 +16,17 @@ class Tweetfeed
     @logger = Logger.new(STDOUT)
     @logger.level = @log_level
     @generator = TweetfeedGenerator.new @config
-    #@twitter = Twitter::Client.new
-    @twitter =  Twitter.configure do |config|
-		  config.consumer_key = "JOaCrxrtn8eKgCVOlpWRQ"
-		  config.consumer_secret = "brBx60OPfT6DlveRdxuwUFhdTBP9P9xIDbgol3UP8pU"
-		  config.oauth_token = "218466084-18G5H2rAWZaMqJH618Dtu7sPGrfHYfAWZIHyyVGd"
-		  config.oauth_token_secret = "t6s6H081tGhQew0tBfWZXd6nYsr43NkxMZ8Tgdhd8"
-		end
+
+    if twitter.nil?
+      @twitter =  Twitter.configure do |config|
+  		  config.consumer_key = "JOaCrxrtn8eKgCVOlpWRQ"
+  		  config.consumer_secret = "brBx60OPfT6DlveRdxuwUFhdTBP9P9xIDbgol3UP8pU"
+  		  config.oauth_token = "218466084-18G5H2rAWZaMqJH618Dtu7sPGrfHYfAWZIHyyVGd"
+  		  config.oauth_token_secret = "t6s6H081tGhQew0tBfWZXd6nYsr43NkxMZ8Tgdhd8"
+  		end
+    else
+      @twitter = twitter
+    end
   end
 
   # Starts the search and generates the RSS feed file.
@@ -42,12 +48,6 @@ class Tweetfeed
       @hashtags.each do |hashtag|
         result.push search(hashtag)
       end
-
-      # for debugging TODO remove later
-      #result.pop.each do |status|
-      #  puts status.id
-      #end
-      #exit
 
       store_last_id calculate_last_id result
       filter_tweets_with_urls result
