@@ -13,13 +13,14 @@ class TweetfeedGenerator
   def initialize config
     @config = config
     @rss_outfile = config.rss_outfile
+    @backup_file = BACKUP_FILE
 
     @logger = Logger.new(STDOUT)
     @logger.level = @config.log_level
   end
 
   def generate_rss_file tweets
-    old_items = parse_rss_file BACKUP_FILE
+    old_items = parse_rss_file @backup_file
     generate_rss_feed(tweets, old_items)
   end
 
@@ -97,7 +98,7 @@ class TweetfeedGenerator
       file.write(content)
     end
 
-    File.open(BACKUP_FILE, "w") do |file|
+    File.open(@backup_file, "w") do |file|
       file.write(content)
     end
   end
