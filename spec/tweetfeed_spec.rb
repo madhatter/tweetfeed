@@ -22,6 +22,12 @@ describe Tweetfeed do
     @tweetfeed = Tweetfeed.new(@tweetfeed_conf, twitter)
   end
 
+  it "should raise an error when there are no hashtags here, too" do
+    config = @tweetfeed_conf
+    config_file = File.join(Dir.pwd, 'spec', 'test_config_no_hashtags.yml')
+    lambda {config.read config_file}.should raise_error
+  end
+
   it "should have some configurations set" do
     config = @tweetfeed_conf
     response = config.log_level

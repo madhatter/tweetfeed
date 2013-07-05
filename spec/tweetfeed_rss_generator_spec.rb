@@ -17,6 +17,12 @@ describe TweetfeedGenerator do
     @tweetfeed_generator.delete_test_output_files
   end
 
+  it "should always raise an error when there are no hashtags defined" do
+    config = @tweetfeed_conf
+    config_file = File.join(Dir.pwd, 'spec', 'test_config_no_hashtags.yml')
+    lambda {config.read config_file}.should raise_error
+  end
+
   it "should parse the xml file to an RSS object" do
     tfg = @tweetfeed_generator
     rss_file = tfg.parse_rss_file @old_rss_xml
