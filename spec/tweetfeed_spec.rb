@@ -7,15 +7,15 @@ describe Tweetfeed do
   before :each do
     logger = double(:logger, :info => nil, :level= => nil, :error => nil)
     @tweetfeed_conf = TweetfeedConfig.new logger
-    config_file = File.join(Dir.pwd, 'spec', 'test_config.yml')
+    config_file = File.join(Dir.pwd, 'spec/data', 'test_config.yml')
     @tweetfeed_conf.read config_file
 
-    tweets_file = File.join(Dir.pwd, 'spec', 'tweets.yml')
+    tweets_file = File.join(Dir.pwd, 'spec/data', 'tweets.yml')
     @tweets_array = YAML.load_file(tweets_file)
 
-    tweets_base_result_file = File.join(Dir.pwd, 'spec', 'tweets_single_result_base.yml')
+    tweets_base_result_file = File.join(Dir.pwd, 'spec/data', 'tweets_single_result_base.yml')
     @tweets_base_result = YAML.load_file(tweets_base_result_file)
-    tweets_result_file = File.join(Dir.pwd, 'spec', 'tweets_single_result.yml')
+    tweets_result_file = File.join(Dir.pwd, 'spec/data', 'tweets_single_result.yml')
     @tweets_result = YAML.load_file(tweets_result_file)
 
     twitter = double(:twitter, :search => @tweets_base_result, :statuses => @tweets_result)
