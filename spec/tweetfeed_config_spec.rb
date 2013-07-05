@@ -22,7 +22,7 @@ describe TweetfeedConfig do
     response.should == 3
   end
 
-  it "should exit when there are no hashtags" do
+  it "should raise an error when there are no hashtags" do
     config = @tweetfeed_conf
     config_file = File.join(Dir.pwd, 'spec', 'test_config_no_hashtags.yml')
     lambda {config.read config_file}.should raise_error
