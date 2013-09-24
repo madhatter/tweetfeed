@@ -55,7 +55,7 @@ class TweetfeedGenerator
         expanded_url = tweet.urls[0].expanded_url
         @logger.debug "URL to fetch: #{orig_url}"
         short_url = expanded_url
-        title = tweet['text'].sub(/(#{orig_url})/, "") 
+        title = tweet['text'].sub(/(#{orig_url})/, "")
         long_url = get_original_url(short_url)
         @logger.debug "Found: #{long_url}"
         i = 1
@@ -71,9 +71,9 @@ class TweetfeedGenerator
         # TODO: Maybe some kind of domain filter would be nice here...
         i = m.items.new_item
         i.title = title.gsub(/\n/,"")
-        #i.link = tweet['attrs']['entities']['urls'][0]['url'] 
+        #i.link = tweet['attrs']['entities']['urls'][0]['url']
         unless long_url == nil
-          i.link = long_url.gsub(/\r/,"") 
+          i.link = long_url.gsub(/\r/,"")
         else
           i.link = orig_url.gsub(/\r/,"") unless orig_url == nil
         end
@@ -109,8 +109,8 @@ class TweetfeedGenerator
     resp = 'empty'
     begin
       @logger.debug short_url.class
-      resp = Curl::Easy.http_get(short_url) do |res| 
-        res.follow_location = true 
+      resp = Curl::Easy.http_get(short_url) do |res|
+        res.follow_location = true
         res.max_redirects = 3
       end
       @logger.debug resp.response_code
@@ -120,7 +120,7 @@ class TweetfeedGenerator
       sleep 3
       if try < 5
         retry
-      else 
+      else
         return nil
       end
     end
