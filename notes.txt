@@ -1,0 +1,21 @@
+Howto generate a tweet results array for testing:
+* open irb
+* require 'yaml'
+* require 'twitter'
+* results = []
+* results.push twitter.search("#hashtag -rt", :since_id => last_id, :include_entities => 1).statuses
+* results.push twitter.search("#hashtag -rt", :since_id => last_id, :include_entities => 1).statuses
+* results.push twitter.search("#hashtag -rt", :since_id => last_id, :include_entities => 1).statuses
+* serialized_array = YAML::dump(results)
+* file = File.new("tweets.yml", "w")
+* file.write serialized_array
+* file.close
+
+Read the serialized object from file
+* open irb
+* require 'yaml'
+* require 'twitter'
+* file = File.new("tweets.yml", "r")
+* tweets = YAML.load_file(file)
+* tweets.each {|r| r.each {|t| puts t['id']}} # for testing if it's working
+
