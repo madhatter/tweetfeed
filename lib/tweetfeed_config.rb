@@ -24,7 +24,7 @@ class TweetfeedConfig
     
     @log_level = @configuration['loglevel']
     @logger.level = @log_level
-    @logger.info "Log level set to #{@log_level}..."
+    @logger.info "Log level set to #{@logger.level}..."
 
     unless @configuration['hashtags'].nil?
       @hashtags = @configuration['hashtags'].split(',').collect { |tag| tag.strip } 

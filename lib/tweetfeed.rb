@@ -18,11 +18,11 @@ class Tweetfeed
     @generator = TweetfeedGenerator.new @config
 
     if twitter.nil?
-      @twitter =  Twitter.configure do |config|
-  		  config.consumer_key = "JOaCrxrtn8eKgCVOlpWRQ"
-  		  config.consumer_secret = "brBx60OPfT6DlveRdxuwUFhdTBP9P9xIDbgol3UP8pU"
-  		  config.oauth_token = "218466084-18G5H2rAWZaMqJH618Dtu7sPGrfHYfAWZIHyyVGd"
-  		  config.oauth_token_secret = "t6s6H081tGhQew0tBfWZXd6nYsr43NkxMZ8Tgdhd8"
+      @twitter =  Twitter.configure do |tconfig|
+  		  tconfig.consumer_key = "JOaCrxrtn8eKgCVOlpWRQ"
+  		  tconfig.consumer_secret = "brBx60OPfT6DlveRdxuwUFhdTBP9P9xIDbgol3UP8pU"
+  		  tconfig.oauth_token = "218466084-18G5H2rAWZaMqJH618Dtu7sPGrfHYfAWZIHyyVGd"
+  		  tconfig.oauth_token_secret = "t6s6H081tGhQew0tBfWZXd6nYsr43NkxMZ8Tgdhd8"
   		end
     else
       @twitter = twitter
@@ -58,7 +58,7 @@ class Tweetfeed
   end
 
   def search hashtag
-    result = @twitter.search("##{hashtag} -rt", :since_id => @last_id, :include_entities => 1).statuses
+    @twitter.search("##{hashtag} -rt", :since_id => @last_id, :include_entities => 1).statuses
   end
 
   # Get the max tweet id from the last search result
