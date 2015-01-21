@@ -34,7 +34,7 @@ class TweetfeedGenerator
     rescue Exception
       @logger.error "Backup file is not where I thought it should be."
     end
-    rss = RSS::Parser.parse(content, false) unless content.empty?
+    RSS::Parser.parse(content, false) unless content.empty?
   end
 
   # Generate the final xml file
@@ -54,6 +54,7 @@ class TweetfeedGenerator
         orig_url = tweet.urls[0].url
         expanded_url = tweet.urls[0].expanded_url
         @logger.debug "URL to fetch: #{orig_url}"
+        @logger.debug "Already expanded url: #{expanded_url}"
         short_url = expanded_url
         title = tweet['text'].sub(/(#{orig_url})/, "")
         long_url = get_original_url(short_url)
@@ -63,9 +64,10 @@ class TweetfeedGenerator
           @logger.debug "Curling #" + i.to_s
           short_url = long_url
           long_url = get_original_url(short_url)
-          @logger.debug "Found: #{long_url}"
+          @logger.debug "Found: #{long_url}" unless long_url.nil?
           i +=1
           break if long_url == short_url
+          break if long_url.nil?
         end
 
         # TODO: Maybe some kind of domain filter would be nice here...
