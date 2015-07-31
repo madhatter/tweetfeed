@@ -54,6 +54,7 @@ class Tweetfeed
 
     rescue EOFError, SocketError, Twitter::Error::ClientError
       @logger.error "Connection to Twitter seems to be not available."
+      return nil
     end
   end
 

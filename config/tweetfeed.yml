@@ -1,5 +1,5 @@
 ---
 hashtags: hadoop, cloudera, hbase
-outfile: /home/madhatter/tweetfeed.xml
+outfile: "/home/madhatter/tweetfeed.xml"
 loglevel: 1
 last_id: 172219119175864320
