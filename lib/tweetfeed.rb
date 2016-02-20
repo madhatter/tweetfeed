@@ -1,5 +1,4 @@
 require 'twitter'
-require 'curb'
 
 require_relative '../lib/tweetfeed_config.rb'
 require_relative '../lib/tweetfeed_rss_generator.rb'
@@ -19,11 +18,11 @@ class Tweetfeed
 
     if twitter.nil?
       @twitter =  Twitter.configure do |tconfig|
-  		  tconfig.consumer_key = "JOaCrxrtn8eKgCVOlpWRQ"
-  		  tconfig.consumer_secret = "brBx60OPfT6DlveRdxuwUFhdTBP9P9xIDbgol3UP8pU"
-  		  tconfig.oauth_token = "218466084-18G5H2rAWZaMqJH618Dtu7sPGrfHYfAWZIHyyVGd"
-  		  tconfig.oauth_token_secret = "t6s6H081tGhQew0tBfWZXd6nYsr43NkxMZ8Tgdhd8"
-  		end
+        tconfig.consumer_key = "JOaCrxrtn8eKgCVOlpWRQ"
+        tconfig.consumer_secret = "brBx60OPfT6DlveRdxuwUFhdTBP9P9xIDbgol3UP8pU"
+        tconfig.oauth_token = "218466084-18G5H2rAWZaMqJH618Dtu7sPGrfHYfAWZIHyyVGd"
+        tconfig.oauth_token_secret = "t6s6H081tGhQew0tBfWZXd6nYsr43NkxMZ8Tgdhd8"
+      end
     else
       @twitter = twitter
     end
@@ -33,9 +32,9 @@ class Tweetfeed
   def run
     @logger.debug "LastId is " + @last_id.to_s
     tweets = collect_tweets
-    
+
     @generator.generate_rss_file tweets unless tweets.instance_of? NilClass
-    
+
     # the last thing we do:
     @config.write
     @logger.info "....and we are done.\n\n"
@@ -65,9 +64,9 @@ class Tweetfeed
   # Get the max tweet id from the last search result
   def calculate_last_id tweets_array
     last_id = @last_id
-    tweets_array.each do |tweets| 
-      tweets.each do |t| 
-        last_id = t['id'] if t['id'] > last_id 
+    tweets_array.each do |tweets|
+      tweets.each do |t|
+        last_id = t['id'] if t['id'] > last_id
       end
     end
     last_id
@@ -86,7 +85,7 @@ class Tweetfeed
     tweets_array.each do |tweets|
       tweets.each do |tweet|
         # TODO remove this, just for debugging
-#       tweet.urls.each do |url| 
+#       tweet.urls.each do |url|
 #         p url.display_url
 #       end
        tweets_with_urls << tweet unless tweet.urls.empty?

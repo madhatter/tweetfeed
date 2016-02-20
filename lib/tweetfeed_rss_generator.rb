@@ -3,6 +3,7 @@ require 'rss/maker'
 require 'rss/2.0'
 
 require_relative '../lib/tweetfeed_config.rb'
+require_relative '../lib/tweetfeed_url_parser.rb'
 
 class TweetfeedGenerator
   PWD = File.dirname(File.expand_path(__FILE__))
@@ -17,6 +18,7 @@ class TweetfeedGenerator
 
     @logger = Logger.new(STDOUT)
     @logger.level = @config.log_level
+    @url_parser = UrlParser.new @config
   end
 
   def generate_rss_file tweets
@@ -57,18 +59,7 @@ class TweetfeedGenerator
         @logger.debug "Already expanded url: #{expanded_url}"
         short_url = expanded_url
         title = tweet['text'].sub(/(#{orig_url})/, "")
-        long_url = get_original_url(short_url)
-        @logger.debug "Found: #{long_url}"
-        i = 1
-        while short_url != long_url do
-          @logger.debug "Curling #" + i.to_s
-          short_url = long_url
-          long_url = get_original_url(short_url)
-          @logger.debug "Found: #{long_url}" unless long_url.nil?
-          i +=1
-          break if long_url == short_url
-          break if long_url.nil?
-        end
+        long_url = @url_parser.get_original_url short_url
 
         # TODO: Maybe some kind of domain filter would be nice here...
         i = m.items.new_item
@@ -102,43 +93,6 @@ class TweetfeedGenerator
 
     File.open(@backup_file, "w") do |file|
       file.write(content)
-    end
-  end
-
-  # Get the long/original URL
-  def get_original_url short_url
-    try = 0
-    resp = 'empty'
-    begin
-      @logger.debug short_url.class
-      resp = Curl::Easy.http_get(short_url) do |res|
-        res.follow_location = true
-        res.max_redirects = 3
-      end
-      @logger.debug resp.response_code
-    rescue => err
-      @logger.error "Curl::Easy.http_get failed: #{err}"
-      try += 1
-      sleep 3
-      if try < 5
-        retry
-      else
-        return nil
-      end
-    end
-
-    @logger.debug resp.response_code
-    @logger.debug "#{resp.header_str}"
-    if(resp && resp.header_str.index(LOCATION_START) \
-       && resp.header_str.index(LOCATION_STOP))
-      start = resp.header_str.index(LOCATION_START) + LOCATION_START.size
-      stop = resp.header_str.index(LOCATION_STOP, start)
-      @logger.debug "Get redirect link"
-      resp.header_str[start..stop]
-    else
-      @logger.debug "Not getting redirect link for #{short_url}"
-      # return the old one instead, better than nothing
-      short_url
     end
   end
 end
