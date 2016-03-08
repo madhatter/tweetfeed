@@ -8,3 +8,4 @@ Gemfile.lock
 tags
 spec/data/backup_file
 spec/data/rss_output_file
+/.idea
