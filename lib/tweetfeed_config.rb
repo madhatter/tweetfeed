@@ -1,8 +1,8 @@
-require 'yaml'
-require 'logger'
-
 # Class for handling the configuration file
 # of tweetfeed
+
+require 'yaml'
+require 'logger'
 
 class TweetfeedConfig
   CONFIG_FILE = 'tweetfeed.yml'
@@ -34,7 +34,7 @@ class TweetfeedConfig
       exit
     end
 
-    @last_id ||= @configuration['last_id']
+    @last_id = @configuration['last_id']
     @logger.info "We start collecting at tweet id ##{@last_id}."
 
     @rss_outfile = @configuration['outfile']

@@ -5,7 +5,7 @@ require_relative '../lib/tweetfeed.rb'
 
 describe Tweetfeed do
   before :each do
-    logger = double(:logger, :info => nil, :level= => nil, :error => nil)
+    logger = double(:logger, :level => "3", :info => nil, :level= => nil, :error => nil)
     @tweetfeed_conf = TweetfeedConfig.new logger
     config_file = File.join(Dir.pwd, 'spec/data', 'test_config.yml')
     @tweetfeed_conf.read config_file
@@ -38,6 +38,11 @@ describe Tweetfeed do
     tf = @tweetfeed
     response = tf.filter_tweets_with_urls @tweets_array
     response.size.should == 3
+  end
+
+  it "should start with the tweet id from the config" do
+    config = @tweetfeed_conf
+    config.last_id.should == 12
   end
 
   it "should return an array with tweets containing urls" do

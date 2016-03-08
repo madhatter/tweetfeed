@@ -4,7 +4,7 @@ require_relative '../lib/tweetfeed_config.rb'
 
 describe TweetfeedConfig do
   before :each do
-    logger = double(:logger, :info => nil, :level= => nil, :error => "error")
+    logger = double(:logger, :level => "3", :info => nil, :level= => nil, :error => "error")
     @tweetfeed_conf = TweetfeedConfig.new logger
     config_file = File.join(Dir.pwd, 'spec/data', 'test_config.yml')
     @tweetfeed_conf.read config_file
